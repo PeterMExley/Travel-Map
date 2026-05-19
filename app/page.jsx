@@ -1,5 +1,10 @@
 import React from "react";
 import { Globe, Camera } from "lucide-react";
+import {
+  ComposableMap,
+  Geographies,
+  Geography,
+} from "react-simple-maps";
 
 const DATA = {
   totalVisited: 102,
@@ -101,7 +106,11 @@ function CountryCard({ country }) {
     </div>
   );
 }
-
+import {
+  ComposableMap,
+  Geographies,
+  Geography,
+} from "react-simple-maps";
 function ContinentSection({ name, countries }) {
   return (
     <section className="mb-16">
@@ -167,23 +176,20 @@ export default function TravelArchiveWebsite() {
         </div>
       </section>
 
-      {/* MAP PLACEHOLDER */}
+      {/* REAL CLICKABLE MAP */}
+<section className="mx-auto max-w-7xl px-6 pb-14">
+  <div className="mb-6">
+    <h2 className="text-3xl font-bold text-white">
+      Interactive World Map
+    </h2>
 
-      <section className="max-w-7xl mx-auto px-6 pb-16">
-        <div className="rounded-3xl border border-slate-800 bg-slate-900 p-12 text-center">
-          <div className="text-7xl mb-6">
-            🌍
-          </div>
+    <p className="mt-2 text-slate-400">
+      Click countries to open future galleries.
+    </p>
+  </div>
 
-          <h2 className="text-3xl font-bold mb-4">
-            Interactive Map Coming Next
-          </h2>
-
-          <p className="text-slate-400 text-lg">
-            This section will later become a clickable SVG world map.
-          </p>
-        </div>
-      </section>
+  <ClickableWorldMap />
+</section>
 
       {/* CONTINENTS */}
 
