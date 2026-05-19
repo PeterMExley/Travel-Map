@@ -11,6 +11,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
+    "react-simple-maps": "latest",
   },
   "devDependencies": {
     "autoprefixer": "latest",
