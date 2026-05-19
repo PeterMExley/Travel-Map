@@ -1,10 +1,37 @@
-import React from "react";
+"use client";
+export default function TravelArchiveWebsite() {
+  return (
+    <div className="min-h-screen bg-slate-950 text-slate-100">
+      <section className="relative overflow-hidden border-b border-slate-800">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(14,165,233,0.25),transparent_45%)]" />
+
+        <div className="relative mx-auto max-w-7xl px-6 py-20 lg:py-28">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="max-w-4xl"
+          >
+            <div className="mb-6 flex items-center gap-3 text-sky-300">
+              <Globe className="h-8 w-8" />
+              <span className="text-sm uppercase tracking-[0.3em]">
+                Peter Exley Travel Archive
+              </span>
+            </div>
+
+            <h1 className="mb-6 text-5xl font-bold leading-tight text-white lg:text-7xl">
+              Interactive World Travel Map
+            </h1>
+
+            <p className="max-w-3xl text-xl leading-relaxed text-slate-300">
+              A personal archive of countries, territories, islands,
+              expeditions, wildlife journeys, canal walks, ferry routes and
+              photography.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* STATS */}
       <section className="mx-auto grid max-w-7xl gap-6 px-6 py-12 md:grid-cols-3">
         <div className="rounded-3xl border border-slate-800 bg-slate-900 p-8">
           <div className="text-5xl font-bold text-sky-300">
@@ -34,7 +61,6 @@ import React from "react";
         </div>
       </section>
 
-      {/* REAL CLICKABLE MAP */}
       <section className="mx-auto max-w-7xl px-6 pb-14">
         <div className="mb-6">
           <h2 className="text-3xl font-bold text-white">
@@ -49,7 +75,6 @@ import React from "react";
         <ClickableWorldMap />
       </section>
 
-      {/* FEATURED TRIPS */}}
       <section className="mx-auto max-w-7xl px-6 pb-14">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-white">
@@ -82,7 +107,6 @@ import React from "react";
         </div>
       </section>
 
-      {/* CONTINENTS */}
       <section className="mx-auto max-w-7xl px-6 pb-20">
         {Object.entries(DATA.continents).map(([continent, countries]) => (
           <ContinentSection
@@ -93,19 +117,17 @@ import React from "react";
         ))}
       </section>
 
-      {/* FOOTER */}
       <footer className="border-t border-slate-800 bg-slate-900/60">
         <div className="mx-auto max-w-7xl px-6 py-10 text-center text-slate-400">
           <p className="text-lg">
-            Ready for Vercel deployment and future photo uploads.
+            Ready for future photo uploads.
           </p>
 
           <p className="mt-3 text-sm">
-            Next stage: connect real world map + add galleries.
+            Interactive world map enabled.
           </p>
         </div>
       </footer>
     </div>
   );
 }
-
