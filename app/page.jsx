@@ -1,4 +1,255 @@
 "use client";
+
+import React from "react";
+import { motion } from "framer-motion";
+import { Globe, Camera, MapPin, Mountain, Waves } from "lucide-react";
+import {
+  ComposableMap,
+  Geographies,
+  Geography,
+} from "react-simple-maps";
+
+const DATA = {
+  stats: {
+    totalVisited: 102,
+    sovereignStates: 78,
+    territories: 24,
+  },
+
+  continents: {
+    Europe: [
+      "Albania",
+      "Andorra",
+      "Austria",
+      "Azores",
+      "Belgium",
+      "Bosnia and Herzegovina",
+      "Bulgaria",
+      "Croatia",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "England",
+      "Estonia",
+      "Finland",
+      "France",
+      "Germany",
+      "Gibraltar",
+      "Greece",
+      "Hungary",
+      "Iceland",
+      "Ireland",
+      "Isle of Man",
+      "Italy",
+      "Jan Mayen",
+      "Kosovo",
+      "Latvia",
+      "Liechtenstein",
+      "Lithuania",
+      "Luxembourg",
+      "Madeira",
+      "Malta",
+      "Monaco",
+      "Montenegro",
+      "Netherlands",
+      "North Macedonia",
+      "Northern Cyprus",
+      "Northern Ireland",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Scotland",
+      "Serbia",
+      "Slovakia",
+      "Slovenia",
+      "Spain",
+      "Svalbard and Jan Mayen",
+      "Sweden",
+      "Switzerland",
+      "Turkey",
+      "United Kingdom",
+      "Vatican City",
+      "Wales",
+    ],
+
+    Africa: [
+      "Botswana",
+      "Cape Verde",
+      "Egypt",
+      "Gambia",
+      "Ghana",
+      "Kenya",
+      "Libya",
+      "Madagascar",
+      "Mauritius",
+      "Morocco",
+      "Namibia",
+      "Rwanda",
+      "Seychelles",
+      "South Africa",
+      "Tanzania",
+      "Tunisia",
+      "Uganda",
+      "Zanzibar",
+      "Zimbabwe",
+    ],
+
+    Asia: [
+      "Armenia",
+      "Cambodia",
+      "China",
+      "Georgia",
+      "Hong Kong",
+      "India",
+      "Indonesia",
+      "Japan",
+      "Jordan",
+      "Laos",
+      "Malaysia",
+      "Maldives",
+      "Qatar",
+      "Russia",
+      "Singapore",
+      "Sri Lanka",
+      "Syria",
+      "Thailand",
+      "Turkey",
+      "United Arab Emirates",
+      "Vietnam",
+    ],
+
+    "North America": [
+      "Canada",
+      "Costa Rica",
+      "Cuba",
+      "El Salvador",
+      "Greenland",
+      "Guatemala",
+      "Honduras",
+      "Mexico",
+      "Nicaragua",
+      "Panama",
+      "United States",
+    ],
+
+    "South America": ["Ecuador", "Peru"],
+  },
+
+  featuredTrips: [
+    {
+      title: "Pantanal Wildlife",
+      country: "Brazil",
+      icon: <Waves className="h-5 w-5" />,
+      description:
+        "Future gallery placeholder for jaguars, wetlands, birds and river safaris.",
+    },
+    {
+      title: "Greek Islands",
+      country: "Greece",
+      icon: <MapPin className="h-5 w-5" />,
+      description:
+        "Future galleries for Leros, Patmos, Kalymnos and ferry routes.",
+    },
+    {
+      title: "Svalbard Expedition",
+      country: "Svalbard and Jan Mayen",
+      icon: <Mountain className="h-5 w-5" />,
+      description:
+        "Future Arctic galleries and polar landscapes.",
+    },
+  ],
+};
+
+const geoUrl =
+  "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
+
+function ClickableWorldMap() {
+  const visitedCountries = Object.values(DATA.continents).flat();
+
+  return (
+    <div className="overflow-hidden rounded-[2rem] border border-slate-800 bg-slate-900 p-4 shadow-2xl">
+      <ComposableMap
+        projectionConfig={{ scale: 145 }}
+        style={{ width: "100%", height: "auto" }}
+      >
+        <Geographies geography={geoUrl}>
+          {({ geographies }) =>
+            geographies.map((geo) => {
+              const countryName = geo.properties.name;
+              const visited = visitedCountries.includes(countryName);
+
+              return (
+                <Geography
+                  key={geo.rsmKey}
+                  geography={geo}
+                  onClick={() => alert(countryName)}
+                  style={{
+                    default: {
+                      fill: visited ? "#0ea5e9" : "#1e293b",
+                      stroke: "#020617",
+                      strokeWidth: 0.5,
+                      outline: "none",
+                    },
+                    hover: {
+                      fill: "#38bdf8",
+                      outline: "none",
+                    },
+                    pressed: {
+                      fill: "#0284c7",
+                      outline: "none",
+                    },
+                  }}
+                />
+              );
+            })
+          }
+        </Geographies>
+      </ComposableMap>
+    </div>
+  );
+}
+
+function CountryCard({ country }) {
+  return (
+    <motion.div
+      whileHover={{ scale: 1.03 }}
+      className="rounded-2xl border border-slate-700 bg-slate-900 p-4 transition hover:border-sky-400"
+    >
+      <div className="flex items-center justify-between gap-3">
+        <div>
+          <h3 className="font-medium text-white">{country}</h3>
+          <p className="mt-1 text-sm text-slate-400">
+            Ready for photo galleries
+          </p>
+        </div>
+
+        <Camera className="h-5 w-5 text-sky-400" />
+      </div>
+    </motion.div>
+  );
+}
+
+function ContinentSection({ name, countries }) {
+  return (
+    <section className="mb-16">
+      <div className="mb-6 flex items-center justify-between">
+        <h2 className="text-3xl font-bold text-white">{name}</h2>
+
+        <div className="rounded-full border border-slate-700 bg-slate-900 px-4 py-2 text-sm text-slate-300">
+          {countries.length} places
+        </div>
+      </div>
+
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {countries.map((country) => (
+          <CountryCard key={country} country={country} />
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export default function TravelArchiveWebsite() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
