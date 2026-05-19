@@ -220,7 +220,17 @@ function ClickableWorldMap() {
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  onClick={() => alert(countryName)}
+                  onClick={() => {
+  if (countryName === "Namibia") {
+    const gallery = document.getElementById("namibia-gallery");
+
+    if (gallery) {
+      gallery.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  }
+}}
                   style={{
                     default: {
                       fill: visited ? "#0ea5e9" : "#1e293b",
