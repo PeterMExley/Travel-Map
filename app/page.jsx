@@ -162,7 +162,7 @@ const DATA = {
 };
 
 const geoUrl =
-  "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
+  "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
 function ClickableWorldMap() {
   const visitedCountries = Object.values(DATA.continents).flat();
