@@ -7,11 +7,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "latest",
     "lucide-react": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
-    "react-simple-maps": "latest",
+    "react-dom": "latest",
+    "react-simple-maps": "latest"
   },
   "devDependencies": {
     "autoprefixer": "latest",
