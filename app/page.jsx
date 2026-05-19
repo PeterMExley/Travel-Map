@@ -130,7 +130,7 @@ const DATA = {
       "Mexico",
       "Nicaragua",
       "Panama",
-      "United States",
+      "United States of America"
     ],
 
     "South America": ["Ecuador", "Peru"],
