@@ -404,7 +404,36 @@ export default function TravelArchiveWebsite() {
           ))}
         </div>
       </section>
+      {/* NAMIBIA GALLERY */}
+<section
+  id="namibia-gallery"
+  className="mx-auto max-w-7xl px-6 pb-20"
+>
+  <div className="mb-8">
+    <h2 className="text-4xl font-bold text-white">
+      Namibia Gallery
+    </h2>
 
+    <p className="mt-2 text-slate-400">
+      Wildlife, deserts, coastlines and safari photography.
+    </p>
+  </div>
+
+  <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    {NAMIBIA_IMAGES.map((image) => (
+      <div
+        key={image}
+        className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900"
+      >
+        <img
+          src={`/photos/africa/namibia/${image}`}
+          alt={image}
+          className="h-72 w-full object-cover transition hover:scale-105"
+        />
+      </div>
+    ))}
+  </div>
+</section>
       <section className="mx-auto max-w-7xl px-6 pb-20">
         {Object.entries(DATA.continents).map(([continent, countries]) => (
           <ContinentSection
