@@ -27,7 +27,7 @@ const DATA = {
       "Bulgaria",
       "Croatia",
       "Cyprus",
-      "Czech Republic",
+      "Czechia",
       "Denmark",
       "England",
       "Estonia",
