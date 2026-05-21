@@ -1,104 +1,15 @@
 "use client";
-import Link from "next/link";
-const IMAGES = [
-"baboon.jpeg",
-"bar.jpeg",
-"boat.jpeg",
-"bug.jpeg",
-"cart.jpeg",
-"dunes.jpeg",
-"eagle.jpeg",
-"elephant.jpeg",
-"falls.jpeg",
-"giraffes.jpeg",
-"groundsquirrel.jpeg",
-"hawk.jpeg",
-"himba.jpeg",
-"hippo.jpeg",
-"impala.jpeg",
-"jackal.jpeg",
-"kingfisher.jpeg",
-"lechwe.jpeg",
-"lions.jpeg",
-"monkey.jpeg",
-"oryx.jpeg",
-"pier.jpeg",
-"restaurant.jpeg",
-"rhino.jpeg",
-"rocket.jpeg",
-"seals.jpeg",
-"secretarybird.jpeg",
-"snake.jpeg",
-"sundowners.jpeg",
-"sunset.jpeg",
-"swakopmund.jpeg",
-"tent.jpeg",
-"warthog.jpeg",
-"waterhole.jpeg",
-"wreck.jpeg",
-"zebras.jpeg",
-];
 export default function NamibiaPage() {
 return (
 
 
+Namibia
 
-    <div className="absolute inset-0 bg-black/50" />
-
-    <div className="relative z-10 mx-auto flex h-full max-w-7xl items-end px-6 pb-16">
-      <div>
-        <p className="mb-3 text-sm uppercase tracking-[0.3em] text-sky-300">
-          Africa
-        </p>
-
-        <h1 className="text-6xl font-bold">
-          Namibia
-        </h1>
-
-        <p className="mt-4 max-w-2xl text-xl text-slate-200">
-          Deserts, wildlife, coastlines and safari photography.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section className="mx-auto max-w-7xl px-6 py-12">
-    <div className="mb-8 flex items-center justify-between">
-      <div>
-        <h2 className="text-3xl font-bold">
-          Gallery
-        </h2>
-
-        <p className="mt-2 text-slate-400">
-          Clickable minimalist thumbnail gallery.
-        </p>
-      </div>
-
-      <Link
-        href="/"
-        className="rounded-2xl border border-slate-700 bg-slate-900 px-5 py-3 text-sm hover:border-sky-400"
-      >
-        ← Back to Map
-      </Link>
-    </div>
-
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-      {IMAGES.map((image) => (
-        <a
-          key={image}
-          href={`/photos/africa/namibia/${image}`}
-          target="_blank"
-          className="group overflow-hidden rounded-2xl border border-slate-800 bg-slate-900"
-        >
-          <img
-            src={`/photos/africa/namibia/${image}`}
-            alt={image}
-            className="h-72 w-full object-cover transition duration-300 group-hover:scale-105"
-          />
-        </a>
-      ))}
-    </div>
-  </section>
+  <img
+    src="/photos/africa/namibia/dunes.jpeg"
+    alt="Namibia dunes"
+    className="mt-8 w-full max-w-3xl rounded-2xl"
+  />
 </div>
 );
 }
