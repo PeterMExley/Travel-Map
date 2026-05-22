@@ -44,6 +44,7 @@ return (
           </p>
         </div>
       </div>
+      </div>
     </section>
 
     <section className="mx-auto max-w-7xl px-6 py-12">
