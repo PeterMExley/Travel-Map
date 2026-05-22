@@ -2,7 +2,7 @@
 export default function NamibiaPage() {
 return (
 <>
-"Namibia"
+{"Namibia"}
 </>
 );
 }
