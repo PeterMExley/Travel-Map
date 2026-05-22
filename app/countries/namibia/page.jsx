@@ -11,7 +11,7 @@ const IMAGES = [
 
 export default function NamibiaPage() {
 return (
-
+<div className="bg-slate-950 min-h-screen text-white p-8">
 
 
   <h1 className="text-5xl font-bold mb-8">
@@ -39,7 +39,6 @@ return (
       </a>
     ))}
   </div>
-
 </div>
 
 );
