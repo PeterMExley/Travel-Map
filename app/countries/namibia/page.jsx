@@ -1,4 +1,4 @@
 "use client";
-export default function NamibiaPage(){
-  return Namibia;
+export default function NamibiaPage() {
+return "Namibia";
 }
