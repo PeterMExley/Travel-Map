@@ -222,13 +222,7 @@ function ClickableWorldMap() {
                   geography={geo}
                   onClick={() => {
   if (countryName === "Namibia") {
-    const gallery = document.getElementById("namibia-gallery");
-
-    if (gallery) {
-      gallery.scrollIntoView({
-        behavior: "smooth",
-      });
-    }
+    window.location.href = "/countries/namibia";
   }
 }}
                   style={{
