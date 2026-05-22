@@ -1,4 +1,9 @@
 "use client";
 export default function NamibiaPage() {
-return Namibia;
+return (
+
+Namibia
+  <img src="/photos/africa/namibia/dunes.jpeg" />
+</div>
+);
 }
