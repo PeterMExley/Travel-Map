@@ -1,4 +1,5 @@
 "use client";
+
 const IMAGES = [
 "baboon.jpeg",
 "boat.jpeg",
@@ -17,9 +18,12 @@ const IMAGES = [
 "warthog.jpeg",
 "zebras.jpeg",
 ];
+
 export default function NamibiaPage() {
 return (
 <>
+
+
 
 
 
@@ -72,5 +76,6 @@ return (
     </section>
   </div>
 </>
+
 );
 }
