@@ -18,7 +18,7 @@ const IMAGES = [
   "warthog.jpeg",
   "zebras.jpeg",
 ];
-x;
+
 export default function NamibiaPage() {
   return (
     <div style={{ background: "black", color: "white", padding: "40px" }}>
