@@ -223,6 +223,8 @@ function ClickableWorldMap() {
                   onClick={() => {
   if (countryName === "Namibia") {
     window.location.href = "/countries/namibia";
+    if (countryName === "Zimbabwe") {
+  window.location.href = "/countries/zimbabwe";
   }
 }}
                   style={{
