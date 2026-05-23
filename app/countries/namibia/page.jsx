@@ -21,7 +21,7 @@ const IMAGES = [
 
 export default function NamibiaPage() {
   return (
-    <div className="bg-slate-950 min-h-screen text-white p-8">
+    <div style={{ background: "black", color: "white", padding: "40px" }}>
       <h1 className="text-5xl font-bold mb-8">Namibia</h1>
       <img
         src="/photos/africa/namibia/lions.jpeg"
