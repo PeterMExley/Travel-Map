@@ -1,26 +1,35 @@
 "use client";
 
 const IMAGES = [
+"baboon.jpeg",
+"boat.jpeg",
 "dunes.jpeg",
 "elephant.jpeg",
 "giraffes.jpeg",
+"himba.jpeg",
+"hippo.jpeg",
+"jackal.jpeg",
 "lions.jpeg",
+"oryx.jpeg",
 "rhino.jpeg",
-"zebras.jpeg"
+"seals.jpeg",
+"sunset.jpeg",
+"swakopmund.jpeg",
+"warthog.jpeg",
+"zebras.jpeg",
 ];
 
 export default function NamibiaPage() {
 return (
-<div className="bg-slate-950 min-h-screen text-white p-8">
 
 
-  <h1 className="text-5xl font-bold mb-8">
-    Namibia
-  </h1>
+Namibia
+
+
 
   <img
-    src="/photos/africa/namibia/dunes.jpeg"
-    alt="Namibia dunes"
+    src="/photos/africa/namibia/lions.jpeg"
+    alt="Namibia lions"
     className="w-full max-w-5xl rounded-2xl mb-12"
   />
 
