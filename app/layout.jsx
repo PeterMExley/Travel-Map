@@ -4,5 +4,9 @@ export const metadata = {
   description: "Interactive travel archive",
 };
 export default function RootLayout({ children }) {
-  return { children };
+  return (
+    
+    { children }
+    
+    ;
 }
