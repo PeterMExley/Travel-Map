@@ -25,7 +25,7 @@ export default function JapanPage() {
       <h1 className="text-5xl font-bold mb-8">Japan</h1>
 
       <img
-        src="/photos/asia/japan/5.jpeg"
+        src="/photos/asia/japan/10.jpeg"
         alt="Japan"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
