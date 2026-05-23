@@ -38,7 +38,7 @@ export default function NamibiaPage() {
             <img
               src={`/photos/africa/namibia/${image}`}
               alt={image}
-              className="rounded-xl w-full h-48 object-contain bg-black hover:opacity-80 transition"
+              className="rounded-xl w-full aspect-square object-cover hover:opacity-80 transition"
             />
           </a>
         ))}
