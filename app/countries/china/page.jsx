@@ -8,7 +8,7 @@ export default function ChinaPage() {
       <h1 className="text-5xl font-bold mb-8">China</h1>
 
       <img
-        src="/photos/asia/china/5.jpeg"
+        src="/photos/asia/china/4.jpeg"
         alt="China"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
