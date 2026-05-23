@@ -222,6 +222,10 @@ function ClickableWorldMap() {
                     if (countryName === "Zimbabwe") {
                       window.location.href = "/countries/zimbabwe";
                     }
+
+                    if (countryName === "China") {
+                      window.location.href = "/countries/china";
+                    }
                   }}
                   style={{
                     default: {
