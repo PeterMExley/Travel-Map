@@ -16,8 +16,7 @@ export default function ZimbabwePage() {
       <h1 className="text-5xl font-bold mb-8">Zimbabwe</h1>
 
       <img
-        src="/photos/africa/zimbabwe/3.jpeg
-        .jpeg"
+        src="/photos/africa/zimbabwe/3.jpeg"
         alt="Zimbabwe"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
