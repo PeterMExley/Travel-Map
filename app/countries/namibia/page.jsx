@@ -21,7 +21,7 @@ const IMAGES = [
 
 export default function NamibiaPage() {
 return (
-
+<div className="bg-slate-950 min-h-screen text-white p-8">
 
 Namibia
 
@@ -47,8 +47,6 @@ Namibia
         />
       </a>
     ))}
-  </div>
 </div>
-
 );
 }
