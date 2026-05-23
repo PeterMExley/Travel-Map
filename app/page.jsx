@@ -321,9 +321,8 @@ export default function TravelArchiveWebsite() {
             </h1>
 
             <p className="max-w-3xl text-xl leading-relaxed text-slate-300">
-              A personal archive of countries, territories, islands,
-              expeditions, wildlife journeys, canal walks, ferry routes and
-              photography.
+              A personal archive of countries, territories, islands, wildlife
+              journeys, and photography.
             </p>
           </motion.div>
         </div>
