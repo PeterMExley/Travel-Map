@@ -3,11 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Globe, Camera, MapPin, Mountain, Waves } from "lucide-react";
-import {
-  ComposableMap,
-  Geographies,
-  Geography,
-} from "react-simple-maps";
+import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 
 const DATA = {
   stats: {
@@ -130,7 +126,7 @@ const DATA = {
       "Mexico",
       "Nicaragua",
       "Panama",
-      "United States of America"
+      "United States of America",
     ],
 
     "South America": ["Ecuador", "Peru"],
@@ -155,8 +151,7 @@ const DATA = {
       title: "Svalbard Expedition",
       country: "Svalbard and Jan Mayen",
       icon: <Mountain className="h-5 w-5" />,
-      description:
-        "Future Arctic galleries and polar landscapes.",
+      description: "Future Arctic galleries and polar landscapes.",
     },
   ],
 };
@@ -198,8 +193,7 @@ const NAMIBIA_IMAGES = [
   "wreck.jpeg",
   "zebras.jpeg",
 ];
-const geoUrl =
-  "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
+const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
 function ClickableWorldMap() {
   const visitedCountries = Object.values(DATA.continents).flat();
@@ -221,12 +215,14 @@ function ClickableWorldMap() {
                   key={geo.rsmKey}
                   geography={geo}
                   onClick={() => {
-  if (countryName === "Namibia") {
-    window.location.href = "/countries/namibia";
-    if (countryName === "Zimbabwe") {
-  window.location.href = "/countries/zimbabwe";
-  }
-}}
+                    if (countryName === "Namibia") {
+                      window.location.href = "/countries/namibia";
+                    }
+
+                    if (countryName === "Zimbabwe") {
+                      window.location.href = "/countries/zimbabwe";
+                    }
+                  }}
                   style={{
                     default: {
                       fill: visited ? "#0ea5e9" : "#1e293b",
@@ -340,9 +336,7 @@ export default function TravelArchiveWebsite() {
           <div className="text-5xl font-bold text-sky-300">
             {DATA.stats.sovereignStates}
           </div>
-          <div className="mt-2 text-lg text-slate-300">
-            Sovereign States
-          </div>
+          <div className="mt-2 text-lg text-slate-300">Sovereign States</div>
         </div>
 
         <div className="rounded-3xl border border-slate-800 bg-slate-900 p-8">
@@ -387,9 +381,7 @@ export default function TravelArchiveWebsite() {
                 {trip.icon}
               </div>
 
-              <h3 className="text-2xl font-bold text-white">
-                {trip.title}
-              </h3>
+              <h3 className="text-2xl font-bold text-white">{trip.title}</h3>
 
               <p className="mt-2 text-sky-300">{trip.country}</p>
 
@@ -401,35 +393,30 @@ export default function TravelArchiveWebsite() {
         </div>
       </section>
       {/* NAMIBIA GALLERY */}
-<section
-  id="namibia-gallery"
-  className="mx-auto max-w-7xl px-6 pb-20"
->
-  <div className="mb-8">
-    <h2 className="text-4xl font-bold text-white">
-      Namibia Gallery
-    </h2>
+      <section id="namibia-gallery" className="mx-auto max-w-7xl px-6 pb-20">
+        <div className="mb-8">
+          <h2 className="text-4xl font-bold text-white">Namibia Gallery</h2>
 
-    <p className="mt-2 text-slate-400">
-      Wildlife, deserts, coastlines and safari photography.
-    </p>
-  </div>
+          <p className="mt-2 text-slate-400">
+            Wildlife, deserts, coastlines and safari photography.
+          </p>
+        </div>
 
-  <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-    {NAMIBIA_IMAGES.map((image) => (
-      <div
-        key={image}
-        className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900"
-      >
-        <img
-          src={`/photos/africa/namibia/${image}`}
-          alt={image}
-          className="h-72 w-full object-cover transition hover:scale-105"
-        />
-      </div>
-    ))}
-  </div>
-</section>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {NAMIBIA_IMAGES.map((image) => (
+            <div
+              key={image}
+              className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900"
+            >
+              <img
+                src={`/photos/africa/namibia/${image}`}
+                alt={image}
+                className="h-72 w-full object-cover transition hover:scale-105"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
       <section className="mx-auto max-w-7xl px-6 pb-20">
         {Object.entries(DATA.continents).map(([continent, countries]) => (
           <ContinentSection
@@ -442,13 +429,9 @@ export default function TravelArchiveWebsite() {
 
       <footer className="border-t border-slate-800 bg-slate-900/60">
         <div className="mx-auto max-w-7xl px-6 py-10 text-center text-slate-400">
-          <p className="text-lg">
-            Ready for future photo uploads.
-          </p>
+          <p className="text-lg">Ready for future photo uploads.</p>
 
-          <p className="mt-3 text-sm">
-            Interactive world map enabled.
-          </p>
+          <p className="mt-3 text-sm">Interactive world map enabled.</p>
         </div>
       </footer>
     </div>
