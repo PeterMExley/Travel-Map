@@ -229,6 +229,9 @@ function ClickableWorldMap() {
                     if (countryName === "Japan") {
                       window.location.href = "/countries/japan";
                     }
+                    if (countryName === "Peru") {
+                      window.location.href = "/countries/peru";
+                    }
                   }}
                   style={{
                     default: {
