@@ -273,7 +273,7 @@ function ClickableWorldMap() {
             }}
           >
             <circle
-              r={2}
+              r={3}
               fill="#38bdf8"
               stroke="#ffffff"
               strokeWidth={2}
@@ -281,7 +281,7 @@ function ClickableWorldMap() {
             />
 
             <circle
-              r={4}
+              r={6}
               fill="#38bdf8"
               opacity={0.25}
               className="animate-pulse"
