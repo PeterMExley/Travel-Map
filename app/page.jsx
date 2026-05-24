@@ -3,8 +3,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Globe, Camera, MapPin, Mountain, Waves } from "lucide-react";
-import { ComposableMap, Geographies, Geography } from "react-simple-maps";
-
+import {
+  ComposableMap,
+  Geographies,
+  Geography,
+  Marker,
+} from "react-simple-maps";
 const DATA = {
   stats: {
     totalVisited: 102,
@@ -194,7 +198,13 @@ const NAMIBIA_IMAGES = [
   "zebras.jpeg",
 ];
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
-
+const SPECIAL_LOCATIONS = [
+  {
+    name: "Cape Verde",
+    coordinates: [-23.6, 15.1],
+    route: "/countries/cape-verde",
+  },
+];
 function ClickableWorldMap() {
   const visitedCountries = Object.values(DATA.continents).flat();
 
@@ -254,6 +264,25 @@ function ClickableWorldMap() {
             })
           }
         </Geographies>
+        {SPECIAL_LOCATIONS.map((location) => (
+          <Marker
+            key={location.name}
+            coordinates={location.coordinates}
+            onClick={() => {
+              window.location.href = location.route;
+            }}
+          >
+            <circle
+              r={6}
+              fill="#38bdf8"
+              stroke="#ffffff"
+              strokeWidth={2}
+              className="cursor-pointer"
+            />
+
+            <circle r={12} fill="#38bdf8" opacity={0.25} />
+          </Marker>
+        ))}
       </ComposableMap>
     </div>
   );
