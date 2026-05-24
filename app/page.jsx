@@ -273,14 +273,19 @@ function ClickableWorldMap() {
             }}
           >
             <circle
-              r={6}
+              r={4}
               fill="#38bdf8"
               stroke="#ffffff"
               strokeWidth={2}
               className="cursor-pointer"
             />
 
-            <circle r={12} fill="#38bdf8" opacity={0.25} />
+            <circle
+              r={8}
+              fill="#38bdf8"
+              opacity={0.25}
+              className="animate-pulse"
+            />
           </Marker>
         ))}
       </ComposableMap>
