@@ -28,9 +28,7 @@ const IMAGES = [
 export default function CapeVerdePage() {
   return (
     <div className="bg-slate-950 min-h-screen text-white p-8">
-      <h1 className="text-5xl font-bold mb-8">
-        Cape Verde
-      </h1>
+      <h1 className="text-5xl font-bold mb-8">Cape Verde</h1>
 
       <img
         src="/photos/africa/cape verde/1.jpeg"
@@ -56,5 +54,3 @@ export default function CapeVerdePage() {
     </div>
   );
 }
-Step 2 — Check Your Marker Route
-In:
