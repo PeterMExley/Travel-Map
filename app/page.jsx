@@ -204,6 +204,12 @@ const SPECIAL_LOCATIONS = [
     coordinates: [-23.6, 15.1],
     route: "/countries/cape-verde",
   },
+
+  {
+    name: "Galapagos",
+    coordinates: [-90.5, -0.8],
+    route: "/countries/galapagos",
+  },
 ];
 function ClickableWorldMap() {
   const visitedCountries = Object.values(DATA.continents).flat();
