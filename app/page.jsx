@@ -280,6 +280,9 @@ function ClickableWorldMap() {
                     if (countryName === "Ecuador") {
                       window.location.href = "/countries/ecuador";
                     }
+                    if (countryName === "South Africa") {
+                      window.location.href = "/countries/southafrica";
+                    }
                   }}
                   style={{
                     default: {
