@@ -46,7 +46,7 @@ export default function GalapagosPage() {
       <h1 className="text-5xl font-bold mb-8">Galapagos</h1>
 
       <img
-        src="/photos/south-america/galapagos/1.jpeg"
+        src="/photos/south-america/galapagos/31.jpeg"
         alt="Galapagos"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
