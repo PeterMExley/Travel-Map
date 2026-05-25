@@ -283,6 +283,9 @@ function ClickableWorldMap() {
                     if (countryName === "South Africa") {
                       window.location.href = "/countries/southafrica";
                     }
+                    if (countryName === "Botswana") {
+                      window.location.href = "/countries/botswana";
+                    }
                   }}
                   style={{
                     default: {
