@@ -210,6 +210,35 @@ const SPECIAL_LOCATIONS = [
     coordinates: [-90.5, -0.8],
     route: "/countries/galapagos",
   },
+  {
+    name: "Azores",
+    coordinates: [-25.5, 37.8],
+    route: "/countries/azores",
+  },
+
+  {
+    name: "Malta",
+    coordinates: [14.4, 35.9],
+    route: "/countries/malta",
+  },
+
+  {
+    name: "Singapore",
+    coordinates: [103.8, 1.35],
+    route: "/countries/singapore",
+  },
+
+  {
+    name: "Maldives",
+    coordinates: [73.5, 3.2],
+    route: "/countries/maldives",
+  },
+
+  {
+    name: "Hong Kong",
+    coordinates: [114.2, 22.3],
+    route: "/countries/hong-kong",
+  },
 ];
 function ClickableWorldMap() {
   const visitedCountries = Object.values(DATA.continents).flat();
