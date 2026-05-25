@@ -275,6 +275,64 @@ const SPECIAL_LOCATIONS = [
     coordinates: [119.5, -8.6],
     route: "/countries/komodo",
   },
+  {
+    name: "Gibraltar",
+    coordinates: [-5.35, 36.14],
+    route: "/countries/gibraltar",
+  },
+
+  {
+    name: "Madeira",
+    coordinates: [-16.9, 32.75],
+    route: "/countries/madeira",
+  },
+
+  {
+    name: "Vatican City",
+    coordinates: [12.45, 41.9],
+    route: "/countries/vatican-city",
+  },
+
+  {
+    name: "Cyprus",
+    coordinates: [33.36, 35.17],
+    route: "/countries/cyprus",
+  },
+
+  {
+    name: "Tenerife",
+    coordinates: [-16.63, 28.29],
+    route: "/countries/tenerife",
+  },
+
+  {
+    name: "Lanzarote",
+    coordinates: [-13.64, 29.05],
+    route: "/countries/lanzarote",
+  },
+
+  {
+    name: "Majorca",
+    coordinates: [3.0, 39.7],
+    route: "/countries/majorca",
+  },
+  {
+    name: "Liechtenstein",
+    coordinates: [9.55, 47.16],
+    route: "/countries/liechtenstein",
+  },
+
+  {
+    name: "Gambia",
+    coordinates: [-15.4, 13.45],
+    route: "/countries/gambia",
+  },
+
+  {
+    name: "Andorra",
+    coordinates: [1.6, 42.55],
+    route: "/countries/andorra",
+  },
 ];
 function ClickableWorldMap() {
   const visitedCountries = Object.values(DATA.continents).flat();
