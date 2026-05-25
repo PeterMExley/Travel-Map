@@ -53,7 +53,7 @@ export default function BotswanaPage() {
       <h1 className="text-5xl font-bold mb-8">Botswana</h1>
 
       <img
-        src="/photos/africa/botswana/1.jpeg"
+        src="/photos/africa/botswana/43.jpeg"
         alt="Botswana"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
