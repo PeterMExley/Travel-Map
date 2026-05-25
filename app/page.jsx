@@ -207,6 +207,8 @@ const ACTIVE_GALLERIES = {
   Galapagos: "/countries/galapagos",
   Botswana: "/countries/botswana",
   Madagascar: "/countries/madagascar",
+  "South Africa": "/countries/southafrica",
+  "Cape Verde": "/countries/cape-verde",
 };
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 const SPECIAL_LOCATIONS = [
