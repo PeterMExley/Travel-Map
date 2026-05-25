@@ -197,6 +197,17 @@ const NAMIBIA_IMAGES = [
   "wreck.jpeg",
   "zebras.jpeg",
 ];
+const ACTIVE_GALLERIES = {
+  Namibia: "/countries/namibia",
+  Zimbabwe: "/countries/zimbabwe",
+  China: "/countries/china",
+  Japan: "/countries/japan",
+  Peru: "/countries/peru",
+  Ecuador: "/countries/ecuador",
+  Galapagos: "/countries/galapagos",
+  Botswana: "/countries/botswana",
+  Madagascar: "/countries/madagascar",
+};
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 const SPECIAL_LOCATIONS = [
   {
@@ -372,9 +383,18 @@ function CountryCard({ country }) {
       <div className="flex items-center justify-between gap-3">
         <div>
           <h3 className="font-medium text-white">{country}</h3>
-          <p className="mt-1 text-sm text-slate-400">
-            Ready for photo galleries
-          </p>
+          {ACTIVE_GALLERIES[country] ? (
+            <a
+              href={ACTIVE_GALLERIES[country]}
+              className="mt-1 inline-block text-sm text-sky-400 hover:text-sky-300"
+            >
+              Gallery →
+            </a>
+          ) : (
+            <p className="mt-1 text-sm text-slate-400">
+              Ready for photo galleries
+            </p>
+          )}
         </div>
 
         <Camera className="h-5 w-5 text-sky-400" />
