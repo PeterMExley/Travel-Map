@@ -239,6 +239,29 @@ const SPECIAL_LOCATIONS = [
     coordinates: [114.2, 22.3],
     route: "/countries/hong-kong",
   },
+  {
+    name: "Svalbard",
+    coordinates: [15.6, 78.2],
+    route: "/countries/svalbard",
+  },
+
+  {
+    name: "Isle of Man",
+    coordinates: [-4.5, 54.2],
+    route: "/countries/isleofman",
+  },
+
+  {
+    name: "Mauritius",
+    coordinates: [57.5, -20.2],
+    route: "/countries/mauritius",
+  },
+
+  {
+    name: "Komodo",
+    coordinates: [119.5, -8.6],
+    route: "/countries/komodo",
+  },
 ];
 function ClickableWorldMap() {
   const visitedCountries = Object.values(DATA.continents).flat();
