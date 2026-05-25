@@ -242,6 +242,9 @@ function ClickableWorldMap() {
                     if (countryName === "Peru") {
                       window.location.href = "/countries/peru";
                     }
+                    if (countryName === "Ecuador") {
+                      window.location.href = "/countries/ecuador";
+                    }
                   }}
                   style={{
                     default: {
