@@ -1,6 +1,23 @@
 "use client";
 
-const IMAGES = ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"];
+const IMAGES = [
+  "1.jpeg",
+  "2.jpeg",
+  "3.jpeg",
+  "4.jpeg",
+  "5.jpeg",
+  "6.jpeg",
+  "7.jpeg",
+  "8.jpeg",
+  "9.jpeg",
+  "10.jpeg",
+  "11.jpeg",
+  "12.jpeg",
+  "13.jpeg",
+  "14.jpeg",
+  "15.jpeg",
+  "16.jpeg",
+];
 
 export default function ChinaPage() {
   return (
@@ -8,7 +25,7 @@ export default function ChinaPage() {
       <h1 className="text-5xl font-bold mb-8">China</h1>
 
       <img
-        src="/photos/asia/china/4.jpeg"
+        src="/photos/asia/china/11.jpeg"
         alt="China"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
