@@ -25,7 +25,7 @@ export default function GibraltarPage() {
       <h1 className="text-5xl font-bold mb-8">Gibraltar</h1>
 
       <img
-        src="/photos/europe/gibraltar/1.jpeg"
+        src="/photos/europe/gibraltar/3.jpeg"
         alt="Gibraltar"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
