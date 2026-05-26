@@ -381,6 +381,9 @@ function ClickableWorldMap() {
                     if (countryName === "India") {
                       window.location.href = "/countries/india";
                     }
+                    if (countryName === "Libya") {
+                      window.location.href = "/countries/libya";
+                    }
                     if (countryName === "South Africa") {
                       window.location.href = "/countries/southafrica";
                     }
