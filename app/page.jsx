@@ -316,9 +316,7 @@ const SPECIAL_LOCATIONS = [
     coordinates: [3.0, 39.7],
     route: "/countries/majorca",
   },
-  if (countryName === "Libya") {
-  window.location.href = "/countries/libya";
-}
+
   {
     name: "Liechtenstein",
     coordinates: [9.55, 47.16],
@@ -367,6 +365,9 @@ function ClickableWorldMap() {
 
                     if (countryName === "China") {
                       window.location.href = "/countries/china";
+                      if (countryName === "Libya") {
+                        window.location.href = "/countries/libya";
+                      }
                     }
                     if (countryName === "Japan") {
                       window.location.href = "/countries/japan";
