@@ -15,6 +15,10 @@ const IMAGES = [
   "14.jpeg",
   "15.jpeg",
   "16.jpeg",
+  "17.jpeg",
+  "18.jpeg",
+  "19.jpeg",
+  "20.jpeg",
 ];
 
 export default function RussiaPage() {
@@ -23,7 +27,7 @@ export default function RussiaPage() {
       <h1 className="text-5xl font-bold mb-8">Russia</h1>
 
       <img
-        src="/photos/asia/russia/9.jpeg"
+        src="/photos/asia/russia/7.jpeg"
         alt="Russia"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
