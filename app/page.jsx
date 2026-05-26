@@ -385,6 +385,9 @@ function ClickableWorldMap() {
                     }
                     if (countryName === "Russia") {
                       window.location.href = "/countries/russia";
+                      if (countryName === "Greenland") {
+                        window.location.href = "/countries/greenland";
+                      }
                     }
                   }}
                   style={{
