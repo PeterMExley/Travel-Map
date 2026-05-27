@@ -351,15 +351,10 @@ const SPECIAL_LOCATIONS = [
   },
 ];
 function ClickableWorldMap() {
-  const [hoveredCountry, setHoveredCountry] = React.useState("");
   const visitedCountries = Object.values(DATA.continents).flat();
 
   return (
     <>
-      <div className="mb-3 h-8 text-center text-lg font-semibold text-sky-300">
-        {hoveredCountry}
-      </div>
-
       <div className="overflow-hidden rounded-[2rem] border border-slate-800 bg-slate-900 p-4 shadow-2xl">
         <ComposableMap
           projectionConfig={{ scale: 145 }}
@@ -375,8 +370,6 @@ function ClickableWorldMap() {
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    onMouseEnter={() => setHoveredCountry(countryName)}
-                    onMouseLeave={() => setHoveredCountry("")}
                     onClick={() => {
                       console.log(countryName);
                       if (countryName === "Namibia") {
@@ -459,7 +452,9 @@ function ClickableWorldMap() {
                         outline: "none",
                       },
                     }}
-                  />
+                  >
+                    <title>{countryName}</title>
+                  </Geography>
                 );
               })
             }
@@ -472,6 +467,7 @@ function ClickableWorldMap() {
                 window.location.href = location.route;
               }}
             >
+              <title>{location.name}</title>
               <circle
                 r={3}
                 fill="#38bdf8"
