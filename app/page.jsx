@@ -142,14 +142,13 @@ const DATA = {
       country: "Brazil",
       icon: <Waves className="h-5 w-5" />,
       description:
-        "Future gallery placeholder for jaguars, wetlands, birds and river safaris.",
+        "Future gallery placeholder for jaguars, wetlands, birds and river safaris.(planned 2027)",
     },
     {
       title: "Greek Islands",
       country: "Greece",
       icon: <MapPin className="h-5 w-5" />,
-      description:
-        "Future galleries for Leros, Patmos, Kalymnos and ferry routes.",
+      description: "Future galleries for Greek island hopping",
     },
     {
       title: "Svalbard Expedition",
@@ -217,7 +216,11 @@ const SPECIAL_LOCATIONS = [
     coordinates: [-23.6, 15.1],
     route: "/countries/cape-verde",
   },
-
+  {
+    name: "Seychelles",
+    coordinates: [55.45, -4.6],
+    route: "/countries/seychelles",
+  },
   {
     name: "Galapagos",
     coordinates: [-90.5, -0.8],
@@ -453,15 +456,15 @@ function ClickableWorldMap() {
               r={3}
               fill="#38bdf8"
               stroke="#ffffff"
-              strokeWidth={2}
-              className="cursor-pointer"
+              strokeWidth={1}
+              className="cursor-pointer transition-all duration-200 hover:fill-yellow-300"
             />
 
             <circle
               r={6}
               fill="#38bdf8"
               opacity={0.25}
-              className="animate-pulse"
+              className="animate-ping"
             />
           </Marker>
         ))}
