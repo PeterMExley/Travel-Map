@@ -457,7 +457,16 @@ function ClickableWorldMap() {
               fill="#38bdf8"
               stroke="#ffffff"
               strokeWidth={1}
-              className="cursor-pointer transition-all duration-200 hover:fill-yellow-300"
+              className="cursor-pointer"
+              style={{
+                transition: "all 0.2s ease",
+              }}
+              onMouseEnter={(e) => {
+                e.target.setAttribute("fill", "#facc15");
+              }}
+              onMouseLeave={(e) => {
+                e.target.setAttribute("fill", "#38bdf8");
+              }}
             />
 
             <circle
