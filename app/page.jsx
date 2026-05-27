@@ -471,7 +471,7 @@ function ClickableWorldMap() {
               strokeWidth={1}
               className="cursor-pointer"
               style={{
-                transition: "all 0.2s ease",
+                transition: "fill 0.2s ease",
               }}
               onMouseEnter={(e) => {
                 e.target.setAttribute("fill", "#facc15");
@@ -485,7 +485,7 @@ function ClickableWorldMap() {
               r={6}
               fill="#38bdf8"
               opacity={0.25}
-              className="animate-ping"
+              className="animate-ping pointer-events-none"
             />
           </Marker>
         ))}
