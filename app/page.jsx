@@ -398,6 +398,19 @@ function ClickableWorldMap() {
                     if (countryName === "Greenland") {
                       window.location.href = "/countries/greenland";
                     }
+                    if (countryName === "Rwanda") {
+                      window.location.href = "/countries/rwanda";
+                    }
+                    if (countryName === "Cuba") {
+                      window.location.href = "/countries/cuba";
+                    }
+                    if (countryName === "Laos") {
+                      window.location.href = "/countries/laos";
+                    }
+                    if (countryName === "Armenia") {
+                      window.location.href = "/countries/armenia";
+                    }
+
                     if (countryName === "Russia") {
                       window.location.href = "/countries/russia";
                     }
