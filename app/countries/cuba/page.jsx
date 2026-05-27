@@ -38,9 +38,7 @@ const IMAGES = [
 export default function CubaPage() {
   return (
     <div className="bg-slate-950 min-h-screen text-white p-8">
-      <h1 className="text-5xl font-bold mb-8">
-        Cuba
-      </h1>
+      <h1 className="text-5xl font-bold mb-8">Cuba</h1>
 
       <img
         src="/photos/north-america/cuba/17.jpeg"
@@ -66,12 +64,3 @@ export default function CubaPage() {
     </div>
   );
 }
-And add this to the map click handler in app/page.jsx:
-if (countryName === "Cuba") {
-  window.location.href = "/countries/cuba";
-}
-
-
-
-
-
