@@ -393,6 +393,8 @@ function ClickableWorldMap() {
                     if (countryName === "Madagascar") {
                       window.location.href = "/countries/madagascar";
                     }
+                    console.log(countryName);
+
                     if (countryName === "Greenland") {
                       window.location.href = "/countries/greenland";
                     }
