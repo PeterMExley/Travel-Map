@@ -356,149 +356,149 @@ function ClickableWorldMap() {
 
   return (
     <>
-  
-    <div> className="mb-3 h-8 text-center text-lg font-semibold text-sky-300">
-  {hoveredCountry}
-</div>
-    <div className="overflow-hidden rounded-[2rem] border border-slate-800 bg-slate-900 p-4 shadow-2xl">
-      <ComposableMap
-        projectionConfig={{ scale: 145 }}
-        style={{ width: "100%", height: "auto" }}
-      >
-        <Geographies geography={geoUrl}>
-          {({ geographies }) =>
-            geographies.map((geo) => {
-              const countryName = geo.properties.name;
-              const visited = visitedCountries.includes(countryName);
+      <div className="mb-3 h-8 text-center text-lg font-semibold text-sky-300">
+        {hoveredCountry}
+      </div>
 
-              return (
-                <Geography
-                  key={geo.rsmKey}
-                  geography={geo}
-                  onMouseEnter={() => setHoveredCountry(countryName)}
-  onMouseLeave={() => setHoveredCountry("")}
-                  onClick={() => {
-                    console.log(countryName);
-                    if (countryName === "Namibia") {
-                      window.location.href = "/countries/namibia";
-                    }
+      <div className="overflow-hidden rounded-[2rem] border border-slate-800 bg-slate-900 p-4 shadow-2xl">
+        <ComposableMap
+          projectionConfig={{ scale: 145 }}
+          style={{ width: "100%", height: "auto" }}
+        >
+          <Geographies geography={geoUrl}>
+            {({ geographies }) =>
+              geographies.map((geo) => {
+                const countryName = geo.properties.name;
+                const visited = visitedCountries.includes(countryName);
 
-                    if (countryName === "Zimbabwe") {
-                      window.location.href = "/countries/zimbabwe";
-                    }
+                return (
+                  <Geography
+                    key={geo.rsmKey}
+                    geography={geo}
+                    onMouseEnter={() => setHoveredCountry(countryName)}
+                    onMouseLeave={() => setHoveredCountry("")}
+                    onClick={() => {
+                      console.log(countryName);
+                      if (countryName === "Namibia") {
+                        window.location.href = "/countries/namibia";
+                      }
 
-                    if (countryName === "China") {
-                      window.location.href = "/countries/china";
+                      if (countryName === "Zimbabwe") {
+                        window.location.href = "/countries/zimbabwe";
+                      }
+
+                      if (countryName === "China") {
+                        window.location.href = "/countries/china";
+                        if (countryName === "Libya") {
+                          window.location.href = "/countries/libya";
+                        }
+                      }
+                      if (countryName === "Japan") {
+                        window.location.href = "/countries/japan";
+                      }
+                      if (countryName === "Peru") {
+                        window.location.href = "/countries/peru";
+                      }
+                      if (countryName === "Ecuador") {
+                        window.location.href = "/countries/ecuador";
+                      }
+                      if (countryName === "India") {
+                        window.location.href = "/countries/india";
+                      }
                       if (countryName === "Libya") {
                         window.location.href = "/countries/libya";
                       }
-                    }
-                    if (countryName === "Japan") {
-                      window.location.href = "/countries/japan";
-                    }
-                    if (countryName === "Peru") {
-                      window.location.href = "/countries/peru";
-                    }
-                    if (countryName === "Ecuador") {
-                      window.location.href = "/countries/ecuador";
-                    }
-                    if (countryName === "India") {
-                      window.location.href = "/countries/india";
-                    }
-                    if (countryName === "Libya") {
-                      window.location.href = "/countries/libya";
-                    }
-                    if (countryName === "South Africa") {
-                      window.location.href = "/countries/southafrica";
-                    }
-                    if (countryName === "Botswana") {
-                      window.location.href = "/countries/botswana";
-                    }
-                    if (countryName === "Madagascar") {
-                      window.location.href = "/countries/madagascar";
-                    }
+                      if (countryName === "South Africa") {
+                        window.location.href = "/countries/southafrica";
+                      }
+                      if (countryName === "Botswana") {
+                        window.location.href = "/countries/botswana";
+                      }
+                      if (countryName === "Madagascar") {
+                        window.location.href = "/countries/madagascar";
+                      }
 
-                    if (countryName === "Greenland") {
-                      window.location.href = "/countries/greenland";
-                    }
-                    if (countryName === "Rwanda") {
-                      window.location.href = "/countries/rwanda";
-                    }
-                    if (countryName === "Cuba") {
-                      window.location.href = "/countries/cuba";
-                    }
-                    if (countryName === "Laos") {
-                      window.location.href = "/countries/laos";
-                    }
-                    if (countryName === "Armenia") {
-                      window.location.href = "/countries/armenia";
-                    }
-                    if (countryName === "Georgia") {
-                      window.location.href = "/countries/georgia";
-                    }
-                    if (countryName === "Russia") {
-                      window.location.href = "/countries/russia";
-                    }
-                    if (countryName === "Sweden") {
-                      window.location.href = "/countries/sweden";
-                    }
-                  }}
-                  style={{
-                    default: {
-                      fill: visited ? "#0ea5e9" : "#1e293b",
-                      stroke: "#020617",
-                      strokeWidth: 0.5,
-                      outline: "none",
-                    },
-                    hover: {
-                      fill: "#38bdf8",
-                      outline: "none",
-                    },
-                    pressed: {
-                      fill: "#0284c7",
-                      outline: "none",
-                    },
-                  }}
-                />
-              );
-            })
-          }
-        </Geographies>
-        {SPECIAL_LOCATIONS.map((location) => (
-          <Marker
-            key={location.name}
-            coordinates={location.coordinates}
-            onClick={() => {
-              window.location.href = location.route;
-            }}
-          >
-            <circle
-              r={3}
-              fill="#38bdf8"
-              stroke="#ffffff"
-              strokeWidth={1}
-              className="cursor-pointer"
-              style={{
-                transition: "fill 0.2s ease",
+                      if (countryName === "Greenland") {
+                        window.location.href = "/countries/greenland";
+                      }
+                      if (countryName === "Rwanda") {
+                        window.location.href = "/countries/rwanda";
+                      }
+                      if (countryName === "Cuba") {
+                        window.location.href = "/countries/cuba";
+                      }
+                      if (countryName === "Laos") {
+                        window.location.href = "/countries/laos";
+                      }
+                      if (countryName === "Armenia") {
+                        window.location.href = "/countries/armenia";
+                      }
+                      if (countryName === "Georgia") {
+                        window.location.href = "/countries/georgia";
+                      }
+                      if (countryName === "Russia") {
+                        window.location.href = "/countries/russia";
+                      }
+                      if (countryName === "Sweden") {
+                        window.location.href = "/countries/sweden";
+                      }
+                    }}
+                    style={{
+                      default: {
+                        fill: visited ? "#0ea5e9" : "#1e293b",
+                        stroke: "#020617",
+                        strokeWidth: 0.5,
+                        outline: "none",
+                      },
+                      hover: {
+                        fill: "#38bdf8",
+                        outline: "none",
+                      },
+                      pressed: {
+                        fill: "#0284c7",
+                        outline: "none",
+                      },
+                    }}
+                  />
+                );
+              })
+            }
+          </Geographies>
+          {SPECIAL_LOCATIONS.map((location) => (
+            <Marker
+              key={location.name}
+              coordinates={location.coordinates}
+              onClick={() => {
+                window.location.href = location.route;
               }}
-              onMouseEnter={(e) => {
-                e.target.setAttribute("fill", "#facc15");
-              }}
-              onMouseLeave={(e) => {
-                e.target.setAttribute("fill", "#38bdf8");
-              }}
-            />
+            >
+              <circle
+                r={3}
+                fill="#38bdf8"
+                stroke="#ffffff"
+                strokeWidth={1}
+                className="cursor-pointer"
+                style={{
+                  transition: "fill 0.2s ease",
+                }}
+                onMouseEnter={(e) => {
+                  e.target.setAttribute("fill", "#facc15");
+                }}
+                onMouseLeave={(e) => {
+                  e.target.setAttribute("fill", "#38bdf8");
+                }}
+              />
 
-            <circle
-              r={6}
-              fill="#38bdf8"
-              opacity={0.25}
-              className="animate-ping pointer-events-none"
-            />
-          </Marker>
-        ))}
-      </ComposableMap>
-    </div>
+              <circle
+                r={6}
+                fill="#38bdf8"
+                opacity={0.25}
+                className="animate-ping pointer-events-none"
+              />
+            </Marker>
+          ))}
+        </ComposableMap>
+      </div>
     </>
   );
 }
