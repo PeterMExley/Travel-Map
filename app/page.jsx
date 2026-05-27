@@ -414,6 +414,9 @@ function ClickableWorldMap() {
                     if (countryName === "Russia") {
                       window.location.href = "/countries/russia";
                     }
+                    if (countryName === "Sweden") {
+                      window.location.href = "/countries/sweden";
+                    }
                   }}
                   style={{
                     default: {
