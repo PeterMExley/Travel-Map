@@ -410,7 +410,9 @@ function ClickableWorldMap() {
                     if (countryName === "Armenia") {
                       window.location.href = "/countries/armenia";
                     }
-
+                    if (countryName === "Georgia") {
+                      window.location.href = "/countries/georgia";
+                    }
                     if (countryName === "Russia") {
                       window.location.href = "/countries/russia";
                     }
