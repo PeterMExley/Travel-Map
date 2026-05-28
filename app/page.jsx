@@ -212,11 +212,14 @@ const ACTIVE_GALLERIES = {
   Laos: "/countries/laos",
   Libya: "/countries/libya",
   Madagascar: "/countries/madagascar",
+  Maldives: "/countries/maldives",
+  Mauritius: "/countries/mauritius",
   Namibia: "/countries/namibia",
   Peru: "/countries/peru",
   Russia: "/countries/russia",
   Rwanda: "/countries/rwanda",
   "South Africa": "/countries/southafrica",
+  Seychelles: "/countries/seychelles",
   Svalbard: "/countries/svalbard",
   Sweden: "/countries/sweden",
   Zimbabwe: "/countries/zimbabwe",
@@ -232,6 +235,17 @@ const SPECIAL_LOCATIONS = [
     name: "Seychelles",
     coordinates: [55.45, -4.6],
     route: "/countries/seychelles",
+  },
+  {
+    name: "New York",
+    coordinates: [-74.0, 40.7],
+    route: "/countries/newyork",
+  },
+
+  {
+    name: "Zanzibar",
+    coordinates: [39.2, -6.16],
+    route: "/countries/zanzibar",
   },
   {
     name: "Galapagos",
