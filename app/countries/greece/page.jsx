@@ -7,7 +7,7 @@ const ISLANDS = [
   { name: "Skiathos", x: 47, y: 30, route: "/countries/greece/skiathos" },
   { name: "Andros", x: 54, y: 44, route: "/countries/greece/andros" },
   { name: "Syros", x: 53, y: 52, route: "/countries/greece/syros" },
-  { name: "Mykonos", x: 57, y: 50, route: "/countries/greece/mykonos" },
+  { name: "Mykonos", x: 57, y: 5, route: "/countries/greece/mykonos" },
   { name: "Naxos", x: 61, y: 61, route: "/countries/greece/naxos" },
   { name: "Paros", x: 58, y: 60, route: "/countries/greece/paros" },
   { name: "Ios", x: 59, y: 68, route: "/countries/greece/ios" },
@@ -59,7 +59,7 @@ export default function GreecePage() {
 
             <span className="relative block h-4 w-4 rounded-full bg-sky-400 border border-white group-hover:bg-yellow-300" />
 
-            <span className="absolute left-4 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-md bg-slate-950/90 px-2 py-1 text-xs text-slate-200 opacity-0 group-hover:opacity-100">
+            <span className="absolute left-4 top-1/2 -translate-y-1/2 whitespace-nowrap text-xs text-sky-200">
               {island.name}
             </span>
           </a>
