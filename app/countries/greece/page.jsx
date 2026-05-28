@@ -58,6 +58,13 @@ const AEGEAN_MARKERS = [
   { name: "Rhodes", x: 87.39, y: 74.4, route: "/countries/greece/rhodes" },
 
   { name: "Fethiye", x: 94.04, y: 72.4, route: "/countries/turkey" },
+  {
+    name: "Cappadocia",
+    x: 97,
+    y: 45,
+    route: "/countries/turkey/cappadocia",
+    arrow: true,
+  },
 ];
 
 export default function GreecePage() {
@@ -88,10 +95,23 @@ export default function GreecePage() {
             className="absolute -translate-x-1/2 -translate-y-1/2 group"
             style={{ left: `${island.x}%`, top: `${island.y}%` }}
           >
-            <span className="absolute -inset-2 rounded-full bg-sky-400 opacity-30 animate-ping" />
+            {island.arrow ? (
+              <span className="relative flex items-center justify-center">
+                <span className="absolute text-yellow-300 text-6xl font-bold animate-ping">
+                  ➜
+                </span>
 
-            <span className="relative block h-4 w-4 rounded-full bg-sky-400 border border-white group-hover:bg-yellow-300" />
+                <span className="relative text-yellow-300 text-6xl font-bold">
+                  ➜
+                </span>
+              </span>
+            ) : (
+              <>
+                <span className="absolute -inset-2 rounded-full bg-sky-400 opacity-30 animate-ping" />
 
+                <span className="relative block h-4 w-4 rounded-full bg-sky-400 border border-white group-hover:bg-yellow-300" />
+              </>
+            )}
             <span className="absolute left-4 top-1/2 -translate-y-1/2 whitespace-nowrap text-xs text-sky-200">
               {island.name}
             </span>
