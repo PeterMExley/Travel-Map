@@ -37,6 +37,14 @@ export default function GreecePage() {
       </p>
 
       <div className="relative mx-auto max-w-6xl h-[720px] rounded-[2rem] border border-slate-800 bg-slate-900 overflow-hidden shadow-2xl">
+        <img
+          src="/maps/greece-islands.jpeg"
+          alt="Greek islands map"
+          className="absolute inset-0 h-full w-full object-cover opacity-80"
+        />
+
+        <div className="absolute inset-0 bg-slate-950/20" />
+
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(14,165,233,0.18),transparent_60%)]" />
 
         <div className="absolute left-[18%] top-[18%] text-slate-600 text-8xl font-bold opacity-20">
