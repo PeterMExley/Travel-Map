@@ -36,11 +36,11 @@ export default function GreecePage() {
         Click an island marker to open its future gallery.
       </p>
 
-      <div className="relative mx-auto max-w-6xl h-[720px] rounded-[2rem] border border-slate-800 bg-slate-900 overflow-hidden shadow-2xl">
+      <div className="relative mx-auto max-w-6xl h-[1000px] rounded-[2rem] border border-slate-800 bg-slate-900 overflow-hidden shadow-2xl">
         <img
           src="/maps/greek-islands.jpeg"
           alt="Greek islands map"
-          className="absolute inset-0 h-full w-full object-contain opacity-80"
+          className="absolute inset-0 h-full w-full object-conver opacity-80"
         />
 
         <div className="absolute inset-0 bg-slate-950/20" />
