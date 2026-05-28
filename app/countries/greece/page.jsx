@@ -1,30 +1,30 @@
 "use client";
 
 const ISLANDS = [
-  { name: "Corfu", x: 22, y: 25, route: "/countries/greece/corfu" },
-  { name: "Zakynthos", x: 24, y: 55, route: "/countries/greece/zakynthos" },
-  { name: "Kefalonia", x: 25, y: 48, route: "/countries/greece/kefalonia" },
-  { name: "Skiathos", x: 43, y: 30, route: "/countries/greece/skiathos" },
-  { name: "Andros", x: 55, y: 42, route: "/countries/greece/andros" },
-  { name: "Syros", x: 58, y: 50, route: "/countries/greece/syros" },
-  { name: "Mykonos", x: 62, y: 49, route: "/countries/greece/mykonos" },
-  { name: "Naxos", x: 62, y: 56, route: "/countries/greece/naxos" },
-  { name: "Paros", x: 59, y: 57, route: "/countries/greece/paros" },
-  { name: "Ios", x: 61, y: 65, route: "/countries/greece/ios" },
-  { name: "Milos", x: 51, y: 66, route: "/countries/greece/milos" },
-  { name: "Sifnos", x: 54, y: 61, route: "/countries/greece/sifnos" },
-  { name: "Folegandros", x: 56, y: 67, route: "/countries/greece/folegandros" },
-  { name: "Santorini", x: 64, y: 70, route: "/countries/greece/santorini" },
-  { name: "Amorgos", x: 68, y: 61, route: "/countries/greece/amorgos" },
-  { name: "Crete", x: 62, y: 86, route: "/countries/greece/crete" },
-  { name: "Rhodes", x: 84, y: 72, route: "/countries/greece/rhodes" },
-  { name: "Kos", x: 78, y: 60, route: "/countries/greece/kos" },
-  { name: "Tilos", x: 81, y: 67, route: "/countries/greece/tilos" },
-  { name: "Symi", x: 86, y: 69, route: "/countries/greece/symi" },
-  { name: "Pserimos", x: 77, y: 56, route: "/countries/greece/pserimos" },
-  { name: "Samos", x: 72, y: 47, route: "/countries/greece/samos" },
-  { name: "Patmos", x: 73, y: 53, route: "/countries/greece/patmos" },
-  { name: "Kalymnos", x: 76, y: 57, route: "/countries/greece/kalymnos" },
+  { name: "Corfu", x: 8, y: 42, route: "/countries/greece/corfu" },
+  { name: "Zakynthos", x: 21, y: 61, route: "/countries/greece/zakynthos" },
+  { name: "Kefalonia", x: 18, y: 55, route: "/countries/greece/kefalonia" },
+  { name: "Skiathos", x: 46, y: 37, route: "/countries/greece/skiathos" },
+  { name: "Andros", x: 54, y: 48, route: "/countries/greece/andros" },
+  { name: "Syros", x: 56, y: 56, route: "/countries/greece/syros" },
+  { name: "Mykonos", x: 61, y: 55, route: "/countries/greece/mykonos" },
+  { name: "Naxos", x: 61, y: 61, route: "/countries/greece/naxos" },
+  { name: "Paros", x: 58, y: 60, route: "/countries/greece/paros" },
+  { name: "Ios", x: 59, y: 68, route: "/countries/greece/ios" },
+  { name: "Milos", x: 49, y: 67, route: "/countries/greece/milos" },
+  { name: "Sifnos", x: 53, y: 64, route: "/countries/greece/sifnos" },
+  { name: "Folegandros", x: 55, y: 69, route: "/countries/greece/folegandros" },
+  { name: "Santorini", x: 62, y: 72, route: "/countries/greece/santorini" },
+  { name: "Amorgos", x: 66, y: 64, route: "/countries/greece/amorgos" },
+  { name: "Crete", x: 59, y: 88, route: "/countries/greece/crete" },
+  { name: "Rhodes", x: 87, y: 73, route: "/countries/greece/rhodes" },
+  { name: "Kos", x: 77, y: 61, route: "/countries/greece/kos" },
+  { name: "Tilos", x: 82, y: 69, route: "/countries/greece/tilos" },
+  { name: "Symi", x: 87, y: 70, route: "/countries/greece/symi" },
+  { name: "Pserimos", x: 76, y: 58, route: "/countries/greece/pserimos" },
+  { name: "Samos", x: 72, y: 49, route: "/countries/greece/samos" },
+  { name: "Patmos", x: 73, y: 55, route: "/countries/greece/patmos" },
+  { name: "Kalymnos", x: 76, y: 59, route: "/countries/greece/kalymnos" },
 ];
 
 export default function GreecePage() {
@@ -46,18 +46,6 @@ export default function GreecePage() {
         <div className="absolute inset-0 bg-slate-950/20" />
 
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(14,165,233,0.18),transparent_60%)]" />
-
-        <div className="absolute left-[18%] top-[18%] text-slate-600 text-8xl font-bold opacity-20">
-          IONIAN
-        </div>
-
-        <div className="absolute right-[18%] top-[28%] text-slate-600 text-8xl font-bold opacity-20">
-          AEGEAN
-        </div>
-
-        <div className="absolute bottom-[8%] left-[42%] text-slate-600 text-7xl font-bold opacity-20">
-          CRETE
-        </div>
 
         {ISLANDS.map((island) => (
           <a
