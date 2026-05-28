@@ -45,7 +45,7 @@ const AEGEAN_MARKERS = [
   { name: "Crete", x: 58.89, y: 91.2, route: "/countries/greece/crete" },
 
   { name: "Samos", x: 72.54, y: 58.2, route: "/countries/greece/samos" },
-  { name: "Patmos", x: 70.47, y: 82.5, route: "/countries/greece/patmos" },
+  { name: "Patmos", x: 69.95, y: 62.7, route: "/countries/greece/patmos" },
   { name: "Kos", x: 77.63, y: 68.9, route: "/countries/greece/kos" },
   { name: "Pserimos", x: 79.53, y: 67.8, route: "/countries/greece/pserimos" },
   { name: "Kalymnos", x: 77.4, y: 66.2, route: "/countries/greece/kalymnos" },
@@ -115,9 +115,10 @@ export default function GreecePage() {
                 <span className="relative block h-4 w-4 rounded-full bg-sky-400 border border-white group-hover:bg-yellow-300" />
               </>
             )}
-            <span className="absolute left-4 top-1/2 -translate-y-1/2 whitespace-nowrap text-xs text-sky-200">
-              {island.name}
-            </span>
+            {!island.arrow && (
+  <span className="absolute left-4 top-1/2 -translate-y-1/2 whitespace-nowrap text-xs text-sky-200">
+    {island.name}
+  </span>
           </a>
         ))}
       </div>
