@@ -1,36 +1,46 @@
 "use client";
 
-const ISLANDS = [
+const AEGEAN_MARKERS = [
+  { name: "Tirana", x: 7.69, y: 9.5, route: "/countries/albania" },
+  { name: "Istanbul", x: 89.12, y: 10.0, route: "/countries/turkey" },
+  { name: "Ohrid", x: 16.49, y: 16.0, route: "/countries/northmacedonia" },
+
+  { name: "Gjirokaster", x: 11.23, y: 25.5, route: "/countries/albania" },
+  { name: "Butrint", x: 9.07, y: 31.3, route: "/countries/albania" },
+
   { name: "Corfu", x: 7.69, y: 34.0, route: "/countries/greece/corfu" },
-  { name: "Zakynthos", x: 21.0, y: 61.0, route: "/countries/greece/zakynthos" },
-  { name: "Kefalonia", x: 17.7, y: 55.0, route: "/countries/greece/kefalonia" },
 
   { name: "Skiathos", x: 40.59, y: 39.7, route: "/countries/greece/skiathos" },
 
-  { name: "Andros", x: 56.5, y: 54.0, route: "/countries/greece/andros" },
-  { name: "Syros", x: 55.7, y: 61.0, route: "/countries/greece/syros" },
-  { name: "Mykonos", x: 58.89, y: 62.8, route: "/countries/greece/mykonos" },
+  { name: "Athens", x: 44.3, y: 57.2, route: "/countries/greece" },
+  { name: "Rafina", x: 45.77, y: 55.8, route: "/countries/greece" },
 
+  {
+    name: "Kefalonia",
+    x: 12.52,
+    y: 52.3,
+    route: "/countries/greece/kefalonia",
+  },
+  { name: "Zakynthos", x: 15.8, y: 58.5, route: "/countries/greece/zakynthos" },
+
+  { name: "Andros", x: 53.28, y: 57.7, route: "/countries/greece/andros" },
+  { name: "Syros", x: 54.92, y: 63.0, route: "/countries/greece/syros" },
+
+  { name: "Mykonos", x: 58.89, y: 62.8, route: "/countries/greece/mykonos" },
   { name: "Paros", x: 56.8, y: 66.0, route: "/countries/greece/paros" },
   { name: "Naxos", x: 59.76, y: 66.4, route: "/countries/greece/naxos" },
-  { name: "Ios", x: 58.6, y: 73.0, route: "/countries/greece/ios" },
 
-  { name: "Sifnos", x: 51.9, y: 66.2, route: "/countries/greece/sifnos" },
-  { name: "Milos", x: 47.8, y: 72.3, route: "/countries/greece/milos" },
-  {
-    name: "Folegandros",
-    x: 55.3,
-    y: 74.4,
-    route: "/countries/greece/folegandros",
-  },
+  { name: "Sifnos", x: 52.42, y: 69.4, route: "/countries/greece/sifnos" },
+  { name: "Amorgos", x: 63.64, y: 70.6, route: "/countries/greece/amorgos" },
+  { name: "Iraklia", x: 59.93, y: 70.5, route: "/countries/greece/iraklia" },
 
+  { name: "Milos", x: 50.09, y: 73.0, route: "/countries/greece/milos" },
   {
     name: "Santorini",
     x: 59.93,
     y: 76.9,
     route: "/countries/greece/santorini",
   },
-  { name: "Amorgos", x: 65.1, y: 69.8, route: "/countries/greece/amorgos" },
 
   { name: "Crete", x: 58.89, y: 91.2, route: "/countries/greece/crete" },
 
@@ -41,9 +51,12 @@ const ISLANDS = [
   { name: "Pserimos", x: 76.8, y: 67.0, route: "/countries/greece/pserimos" },
   { name: "Kalymnos", x: 77.4, y: 66.2, route: "/countries/greece/kalymnos" },
 
-  { name: "Tilos", x: 83.2, y: 75.2, route: "/countries/greece/tilos" },
+  { name: "Tinos", x: 56.04, y: 61.1, route: "/countries/greece/tilos" },
+
   { name: "Symi", x: 88.6, y: 75.8, route: "/countries/greece/symi" },
   { name: "Rhodes", x: 87.39, y: 74.4, route: "/countries/greece/rhodes" },
+
+  { name: "Fethiye", x: 94.04, y: 72.4, route: "/countries/turkey" },
 ];
 
 export default function GreecePage() {
@@ -66,7 +79,7 @@ export default function GreecePage() {
 
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(14,165,233,0.18),transparent_60%)]" />
 
-        {ISLANDS.map((island) => (
+        {AEGEAN_MARKERS.map((island) => (
           <a
             key={island.name}
             href={island.route}
