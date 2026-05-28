@@ -28,7 +28,7 @@ const AEGEAN_MARKERS = [
 
   { name: "Mykonos", x: 58.89, y: 62.8, route: "/countries/greece/mykonos" },
   { name: "Paros", x: 56.8, y: 66.0, route: "/countries/greece/paros" },
-  { name: "Naxos", x: 59.76, y: 66.4, route: "/countries/greece/naxos" },
+  { name: "Naxos", x: 59.15, y: 68.1, route: "/countries/greece/naxos" },
 
   { name: "Sifnos", x: 52.42, y: 69.4, route: "/countries/greece/sifnos" },
   { name: "Amorgos", x: 63.64, y: 70.6, route: "/countries/greece/amorgos" },
@@ -48,12 +48,13 @@ const AEGEAN_MARKERS = [
   { name: "Patmos", x: 75.5, y: 64.0, route: "/countries/greece/patmos" },
 
   { name: "Kos", x: 77.63, y: 68.9, route: "/countries/greece/kos" },
-  { name: "Pserimos", x: 78, y: 67.0, route: "/countries/greece/pserimos" },
+  { name: "Pserimos", x: 79.53, y: 67.8, route: "/countries/greece/pserimos" },
   { name: "Kalymnos", x: 77.4, y: 66.2, route: "/countries/greece/kalymnos" },
 
   { name: "Tinos", x: 56.04, y: 61.1, route: "/countries/greece/tilos" },
 
-  { name: "Symi", x: 85.6, y: 73.8, route: "/countries/greece/symi" },
+  { name: "Symi", x: 82.99, y: 72.7, route: "/countries/greece/symi" },
+
   { name: "Rhodes", x: 87.39, y: 74.4, route: "/countries/greece/rhodes" },
 
   { name: "Fethiye", x: 94.04, y: 72.4, route: "/countries/turkey" },
