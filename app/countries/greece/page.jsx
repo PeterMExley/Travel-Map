@@ -40,7 +40,7 @@ export default function GreecePage() {
         <img
           src="/maps/greek-islands.jpeg"
           alt="Greek islands map"
-          className="absolute inset-0 h-full w-full object-cover opacity-80"
+          className="absolute inset-0 h-full w-full object-contain opacity-80"
         />
 
         <div className="absolute inset-0 bg-slate-950/20" />
