@@ -1,30 +1,49 @@
 "use client";
 
 const ISLANDS = [
-  { name: "Corfu", x: 8, y: 36, route: "/countries/greece/corfu" },
-  { name: "Zakynthos", x: 21, y: 61, route: "/countries/greece/zakynthos" },
-  { name: "Kefalonia", x: 18, y: 55, route: "/countries/greece/kefalonia" },
-  { name: "Skiathos", x: 46, y: 27, route: "/countries/greece/skiathos" },
-  { name: "Andros", x: 57, y: 49, route: "/countries/greece/andros" },
-  { name: "Syros", x: 55, y: 57, route: "/countries/greece/syros" },
-  { name: "Mykonos", x: 58, y: 55, route: "/countries/greece/mykonos" },
-  { name: "Naxos", x: 60, y: 58, route: "/countries/greece/naxos" },
-  { name: "Paros", x: 56, y: 57, route: "/countries/greece/paros" },
-  { name: "Ios", x: 59, y: 68, route: "/countries/greece/ios" },
-  { name: "Milos", x: 47, y: 67, route: "/countries/greece/milos" },
-  { name: "Sifnos", x: 51, y: 62, route: "/countries/greece/sifnos" },
-  { name: "Folegandros", x: 56, y: 69, route: "/countries/greece/folegandros" },
-  { name: "Santorini", x: 62, y: 73, route: "/countries/greece/santorini" },
-  { name: "Amorgos", x: 67, y: 64, route: "/countries/greece/amorgos" },
-  { name: "Crete", x: 59, y: 91, route: "/countries/greece/crete" },
-  { name: "Rhodes", x: 87, y: 73, route: "/countries/greece/rhodes" },
-  { name: "Kos", x: 77, y: 61, route: "/countries/greece/kos" },
-  { name: "Tilos", x: 82, y: 69, route: "/countries/greece/tilos" },
-  { name: "Symi", x: 87, y: 70, route: "/countries/greece/symi" },
-  { name: "Pserimos", x: 76, y: 58, route: "/countries/greece/pserimos" },
-  { name: "Samos", x: 75, y: 46, route: "/countries/greece/samos" },
-  { name: "Patmos", x: 74, y: 51, route: "/countries/greece/patmos" },
-  { name: "Kalymnos", x: 76, y: 59, route: "/countries/greece/kalymnos" },
+  { name: "Corfu", x: 7.69, y: 34.0, route: "/countries/greece/corfu" },
+  { name: "Zakynthos", x: 21.0, y: 61.0, route: "/countries/greece/zakynthos" },
+  { name: "Kefalonia", x: 17.7, y: 55.0, route: "/countries/greece/kefalonia" },
+
+  { name: "Skiathos", x: 40.59, y: 39.7, route: "/countries/greece/skiathos" },
+
+  { name: "Andros", x: 56.5, y: 54.0, route: "/countries/greece/andros" },
+  { name: "Syros", x: 55.7, y: 61.0, route: "/countries/greece/syros" },
+  { name: "Mykonos", x: 58.89, y: 62.8, route: "/countries/greece/mykonos" },
+
+  { name: "Paros", x: 56.8, y: 66.0, route: "/countries/greece/paros" },
+  { name: "Naxos", x: 59.76, y: 66.4, route: "/countries/greece/naxos" },
+  { name: "Ios", x: 58.6, y: 73.0, route: "/countries/greece/ios" },
+
+  { name: "Sifnos", x: 51.9, y: 66.2, route: "/countries/greece/sifnos" },
+  { name: "Milos", x: 47.8, y: 72.3, route: "/countries/greece/milos" },
+  {
+    name: "Folegandros",
+    x: 55.3,
+    y: 74.4,
+    route: "/countries/greece/folegandros",
+  },
+
+  {
+    name: "Santorini",
+    x: 59.93,
+    y: 76.9,
+    route: "/countries/greece/santorini",
+  },
+  { name: "Amorgos", x: 65.1, y: 69.8, route: "/countries/greece/amorgos" },
+
+  { name: "Crete", x: 58.89, y: 91.2, route: "/countries/greece/crete" },
+
+  { name: "Samos", x: 77.1, y: 59.0, route: "/countries/greece/samos" },
+  { name: "Patmos", x: 75.5, y: 64.0, route: "/countries/greece/patmos" },
+
+  { name: "Kos", x: 77.63, y: 68.9, route: "/countries/greece/kos" },
+  { name: "Pserimos", x: 76.8, y: 67.0, route: "/countries/greece/pserimos" },
+  { name: "Kalymnos", x: 77.4, y: 66.2, route: "/countries/greece/kalymnos" },
+
+  { name: "Tilos", x: 83.2, y: 75.2, route: "/countries/greece/tilos" },
+  { name: "Symi", x: 88.6, y: 75.8, route: "/countries/greece/symi" },
+  { name: "Rhodes", x: 87.39, y: 74.4, route: "/countries/greece/rhodes" },
 ];
 
 export default function GreecePage() {
