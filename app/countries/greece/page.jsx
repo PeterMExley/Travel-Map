@@ -44,9 +44,8 @@ const AEGEAN_MARKERS = [
 
   { name: "Crete", x: 58.89, y: 91.2, route: "/countries/greece/crete" },
 
-  { name: "Samos", x: 77.1, y: 59.0, route: "/countries/greece/samos" },
-  { name: "Patmos", x: 75.5, y: 64.0, route: "/countries/greece/patmos" },
-
+  { name: "Samos", x: 72.54, y: 58.2, route: "/countries/greece/samos" },
+  { name: "Patmos", x: 70.47, y: 82.5, route: "/countries/greece/patmos" },
   { name: "Kos", x: 77.63, y: 68.9, route: "/countries/greece/kos" },
   { name: "Pserimos", x: 79.53, y: 67.8, route: "/countries/greece/pserimos" },
   { name: "Kalymnos", x: 77.4, y: 66.2, route: "/countries/greece/kalymnos" },
@@ -96,13 +95,17 @@ export default function GreecePage() {
             style={{ left: `${island.x}%`, top: `${island.y}%` }}
           >
             {island.arrow ? (
-              <span className="relative flex items-center justify-center">
-                <span className="absolute text-yellow-300 text-6xl font-bold animate-ping">
+              <span className="relative flex flex-col items-center">
+                <span className="absolute text-yellow-300 text-4xl font-bold animate-ping">
                   ➜
                 </span>
 
-                <span className="relative text-yellow-300 text-6xl font-bold">
+                <span className="relative text-yellow-300 text-4xl font-bold">
                   ➜
+                </span>
+
+                <span className="mt-2 text-xs font-semibold text-yellow-300 whitespace-nowrap">
+                  Cappadocia
                 </span>
               </span>
             ) : (
