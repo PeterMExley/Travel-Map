@@ -212,6 +212,7 @@ const ACTIVE_GALLERIES = {
   Laos: "/countries/laos",
   Libya: "/countries/libya",
   Madagascar: "/countries/madagascar",
+  Malaysia: "/countries/malaysia",
   Maldives: "/countries/maldives",
   Mauritius: "/countries/mauritius",
   Namibia: "/countries/namibia",
@@ -220,8 +221,11 @@ const ACTIVE_GALLERIES = {
   Rwanda: "/countries/rwanda",
   "South Africa": "/countries/southafrica",
   Seychelles: "/countries/seychelles",
+  "Sri Lanka": "/countries/srilanka",
   Svalbard: "/countries/svalbard",
   Sweden: "/countries/sweden",
+  Syria: "/countries/syria",
+  Thailand: "/countries/thailand",
   Zimbabwe: "/countries/zimbabwe",
 };
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
@@ -403,6 +407,9 @@ function ClickableWorldMap() {
                       if (countryName === "Japan") {
                         window.location.href = "/countries/japan";
                       }
+                      if (countryName === "Malaysia") {
+                        window.location.href = "/countries/malaysia";
+                      }
                       if (countryName === "Peru") {
                         window.location.href = "/countries/peru";
                       }
@@ -414,6 +421,12 @@ function ClickableWorldMap() {
                       }
                       if (countryName === "Libya") {
                         window.location.href = "/countries/libya";
+                      }
+                      if (countryName === "Sri Lanka") {
+                        window.location.href = "/countries/srilanka";
+                      }
+                      if (countryName === "Thailand") {
+                        window.location.href = "/countries/thailand";
                       }
                       if (countryName === "South Africa") {
                         window.location.href = "/countries/southafrica";
@@ -451,6 +464,9 @@ function ClickableWorldMap() {
                       }
                       if (countryName === "Sweden") {
                         window.location.href = "/countries/sweden";
+                      }
+                      if (countryName === "Syria") {
+                        window.location.href = "/countries/syria";
                       }
                     }}
                     style={{
