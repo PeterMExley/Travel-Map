@@ -43,7 +43,13 @@ const AEGEAN_MARKERS = [
   },
 
   { name: "Crete", x: 58.89, y: 91.2, route: "/countries/greece/crete" },
-
+  {
+    name: "Folegandros",
+    x: 55.1,
+    y: 74.3,
+    route: "/countries/greece/folegandros",
+  },
+  { name: "Ios", x: 55.7, y: 74.1, route: "/countries/greece/ios" },
   { name: "Samos", x: 72.54, y: 58.2, route: "/countries/greece/samos" },
   { name: "Patmos", x: 69.95, y: 62.7, route: "/countries/greece/patmos" },
   { name: "Kos", x: 77.63, y: 68.9, route: "/countries/greece/kos" },
