@@ -113,12 +113,12 @@ export default function GreecePage() {
                 <span className="absolute -inset-2 rounded-full bg-sky-400 opacity-30 animate-ping" />
 
                 <span className="relative block h-4 w-4 rounded-full bg-sky-400 border border-white group-hover:bg-yellow-300" />
+
+                <span className="absolute left-4 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-xs text-sky-200">
+                  {island.name}
+                </span>
               </>
             )}
-            {!island.arrow && (
-  <span className="absolute left-4 top-1/2 -translate-y-1/2 whitespace-nowrap text-xs text-sky-200">
-    {island.name}
-  </span>
           </a>
         ))}
       </div>
