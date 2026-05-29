@@ -26,7 +26,7 @@ const AEGEAN_MARKERS = [
   { name: "Andros", x: 53.28, y: 57.7, route: "/countries/greece/andros" },
   { name: "Syros", x: 54.92, y: 63.0, route: "/countries/greece/syros" },
 
-  { name: "Mykonos", x: 59.1, y: 62.8, route: "/countries/greece/mykonos" },
+  { name: "Mykonos", x: 59.4, y: 62.8, route: "/countries/greece/mykonos" },
   { name: "Paros", x: 56.8, y: 66.0, route: "/countries/greece/paros" },
   { name: "Naxos", x: 59.15, y: 68.1, route: "/countries/greece/naxos" },
 
