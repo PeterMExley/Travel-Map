@@ -32,7 +32,7 @@ const AEGEAN_MARKERS = [
 
   { name: "Sifnos", x: 52.42, y: 69.4, route: "/countries/greece/sifnos" },
   { name: "Amorgos", x: 63.64, y: 70.6, route: "/countries/greece/amorgos" },
-  { name: "Iraklia", x: 56.9, y: 71, route: "/countries/greece/iraklia" },
+  { name: "Iraklia", x: 57.3, y: 70.5, route: "/countries/greece/iraklia" },
 
   { name: "Milos", x: 50.09, y: 73.0, route: "/countries/greece/milos" },
   {
