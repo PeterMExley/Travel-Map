@@ -32,7 +32,7 @@ const AEGEAN_MARKERS = [
 
   { name: "Sifnos", x: 52.42, y: 69.4, route: "/countries/greece/sifnos" },
   { name: "Amorgos", x: 63.64, y: 70.6, route: "/countries/greece/amorgos" },
-  { name: "Iraklia", x: 59.93, y: 70.5, route: "/countries/greece/iraklia" },
+  { name: "Iraklia", x: 56.9, y: 71, route: "/countries/greece/iraklia" },
 
   { name: "Milos", x: 50.09, y: 73.0, route: "/countries/greece/milos" },
   {
@@ -49,7 +49,7 @@ const AEGEAN_MARKERS = [
     y: 74.3,
     route: "/countries/greece/folegandros",
   },
-  { name: "Ios", x: 55.7, y: 74.1, route: "/countries/greece/ios" },
+  { name: "Ios", x: 58.3, y: 72.1, route: "/countries/greece/ios" },
   { name: "Samos", x: 72.54, y: 58.2, route: "/countries/greece/samos" },
   { name: "Patmos", x: 69.95, y: 62.7, route: "/countries/greece/patmos" },
   { name: "Kos", x: 77.63, y: 68.9, route: "/countries/greece/kos" },
