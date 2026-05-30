@@ -202,13 +202,17 @@ const ACTIVE_GALLERIES = {
   "Cape Verde": "/countries/cape-verde",
   China: "/countries/china",
   Cuba: "/countries/cuba",
+  Cyprus: "/countries/cyprus",
+
   Ecuador: "/countries/ecuador",
   Galapagos: "/countries/galapagos",
   Georgia: "/countries/georgia",
   Gibraltar: "/countries/gibraltar",
   Greenland: "/countries/greenland",
   India: "/countries/india",
+  Indonesia: "/countries/indonesia",
   Japan: "/countries/japan",
+  Komodo: "/countries/komodo",
   Laos: "/countries/laos",
   Libya: "/countries/libya",
   Madagascar: "/countries/madagascar",
@@ -225,6 +229,7 @@ const ACTIVE_GALLERIES = {
   Svalbard: "/countries/svalbard",
   Sweden: "/countries/sweden",
   Syria: "/countries/syria",
+  Tenerife: "/countries/tenerife",
   Thailand: "/countries/thailand",
   Zimbabwe: "/countries/zimbabwe",
 };
@@ -406,6 +411,9 @@ function ClickableWorldMap() {
                       }
                       if (countryName === "Japan") {
                         window.location.href = "/countries/japan";
+                      }
+                      if (countryName === "Indonesia") {
+                        window.location.href = "/countries/indonesia";
                       }
                       if (countryName === "Malaysia") {
                         window.location.href = "/countries/malaysia";
