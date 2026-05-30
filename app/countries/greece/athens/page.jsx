@@ -15,11 +15,11 @@ export default function AthensPage() {
         {IMAGES.map((image) => (
           <a
             key={image}
-            href={`/photos/greece/athens/${image}`}
+            href={`/photos/europe/greece/athens/${image}`}
             target="_blank"
           >
             <img
-              src={`/photos/greece/athens/${image}`}
+              src={`/photos/europe/greece/athens/${image}`}
               alt={image}
               className="rounded-xl w-full aspect-square object-cover hover:opacity-80 transition"
             />

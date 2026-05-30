@@ -21,7 +21,7 @@ export default function NaxosPage() {
       <h1 className="text-5xl font-bold mb-8">Naxos</h1>
 
       <img
-        src="/photos/greece/naxos/8.jpeg"
+        src="/photos/europe/greece/naxos/8.jpeg"
         alt="Naxos"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
@@ -30,7 +30,7 @@ export default function NaxosPage() {
         {IMAGES.map((image) => (
           <a key={image} href={`/photos/greece/naxos/${image}`} target="_blank">
             <img
-              src={`/photos/greece/naxos/${image}`}
+              src={`/photos/europe/greece/naxos/${image}`}
               alt={image}
               className="rounded-xl w-full aspect-square object-cover hover:opacity-80 transition"
             />
