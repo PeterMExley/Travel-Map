@@ -198,12 +198,12 @@ const NAMIBIA_IMAGES = [
 ];
 const ACTIVE_GALLERIES = {
   Armenia: "/countries/armenia",
+  Azores: "/countries/azores",
   Botswana: "/countries/botswana",
   "Cape Verde": "/countries/cape-verde",
   China: "/countries/china",
   Cuba: "/countries/cuba",
   Cyprus: "/countries/cyprus",
-
   Ecuador: "/countries/ecuador",
   Galapagos: "/countries/galapagos",
   Georgia: "/countries/georgia",
@@ -216,6 +216,7 @@ const ACTIVE_GALLERIES = {
   Laos: "/countries/laos",
   Libya: "/countries/libya",
   Madagascar: "/countries/madagascar",
+  Madeira: "/countries/madeira",
   Malaysia: "/countries/malaysia",
   Maldives: "/countries/maldives",
   Mauritius: "/countries/mauritius",
