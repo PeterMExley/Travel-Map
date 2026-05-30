@@ -28,7 +28,11 @@ export default function NaxosPage() {
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {IMAGES.map((image) => (
-          <a key={image} href={`/photos/greece/naxos/${image}`} target="_blank">
+          <a
+            key={image}
+            href={`/photos/europe/greece/naxos/${image}`}
+            target="_blank"
+          >
             <img
               src={`/photos/europe/greece/naxos/${image}`}
               alt={image}

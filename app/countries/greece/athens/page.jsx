@@ -6,7 +6,7 @@ export default function AthensPage() {
       <h1 className="text-5xl font-bold mb-8">Athens</h1>
 
       <img
-        src="/photos/greece/athens/1.jpeg"
+        src="/photos/europe/greece/athens/1.jpeg"
         alt="Athens"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
