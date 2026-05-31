@@ -367,6 +367,11 @@ const SPECIAL_LOCATIONS = [
     coordinates: [3.0, 39.7],
     route: "/countries/majorca",
   },
+  {
+    name: "Qatar",
+    coordinates: [51.2, 25.3],
+    route: "/countries/qatar",
+  },
 
   {
     name: "Liechtenstein",
