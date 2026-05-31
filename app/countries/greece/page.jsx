@@ -56,7 +56,7 @@ const AEGEAN_MARKERS = [
   { name: "Pserimos", x: 79.53, y: 67.8, route: "/countries/greece/pserimos" },
   { name: "Kalymnos", x: 77.4, y: 66.2, route: "/countries/greece/kalymnos" },
 
-  { name: "Tinos", x: 56.04, y: 61.1, route: "/countries/greece/tilos" },
+  { name: "Tinos", x: 56.04, y: 61.1, route: "/countries/greece/tinos" },
 
   { name: "Symi", x: 82.99, y: 72.7, route: "/countries/greece/symi" },
 
