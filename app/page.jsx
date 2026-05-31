@@ -239,7 +239,7 @@ const ACTIVE_GALLERIES = {
   Syria: "/countries/syria",
   Tenerife: "/countries/tenerife",
   Thailand: "/countries/thailand",
-  "United States": "/countries/unitedstates",
+  "United States of America": "/countries/unitedstates",
   Zimbabwe: "/countries/zimbabwe",
 };
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
