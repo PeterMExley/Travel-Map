@@ -228,6 +228,7 @@ const ACTIVE_GALLERIES = {
   Mexico: "/countries/mexico",
   Namibia: "/countries/namibia",
   Nicaragua: "/countries/nicaragua",
+  Panama: "/countries/panama",
   Peru: "/countries/peru",
   Russia: "/countries/russia",
   Rwanda: "/countries/rwanda",
@@ -485,6 +486,9 @@ function ClickableWorldMap() {
                       }
                       if (countryName === "Cuba") {
                         window.location.href = "/countries/cuba";
+                      }
+                      if (countryName === "Panama") {
+                        window.location.href = "/countries/panama";
                       }
                       if (countryName === "Laos") {
                         window.location.href = "/countries/laos";
