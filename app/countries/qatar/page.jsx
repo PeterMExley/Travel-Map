@@ -1,4 +1,10 @@
-<div className="bg-slate-950 min-h-screen text-white p-8">
+"use client";
+
+const IMAGES = ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"];
+
+export default function QatarPage() {
+  return (
+    <div className="bg-slate-950 min-h-screen text-white p-8">
       <h1 className="text-5xl font-bold mb-8">Qatar</h1>
 
       <img
@@ -9,11 +15,7 @@
 
       <div className="grid grid-cols-2 gap-4">
         {IMAGES.map((image) => (
-          <a
-            key={image}
-            href={`/photos/asia/qatar/${image}`}
-            target="_blank"
-          >
+          <a key={image} href={`/photos/asia/qatar/${image}`} target="_blank">
             <img
               src={`/photos/asia/qatar/${image}`}
               alt={image}
