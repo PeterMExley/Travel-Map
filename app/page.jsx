@@ -230,6 +230,8 @@ const ACTIVE_GALLERIES = {
   Nicaragua: "/countries/nicaragua",
   Panama: "/countries/panama",
   Peru: "/countries/peru",
+  Qatar: "/countries/qatar",
+
   Russia: "/countries/russia",
   Rwanda: "/countries/rwanda",
   "South Africa": "/countries/southafrica",
@@ -240,6 +242,7 @@ const ACTIVE_GALLERIES = {
   Syria: "/countries/syria",
   Tenerife: "/countries/tenerife",
   Thailand: "/countries/thailand",
+  "United Arab Emirates": "/countries/uae",
   "United States of America": "/countries/unitedstates",
   Zimbabwe: "/countries/zimbabwe",
 };
@@ -422,6 +425,9 @@ function ClickableWorldMap() {
                           window.location.href = "/countries/libya";
                         }
                       }
+                      if (countryName === "United Arab Emirates") {
+                        window.location.href = "/countries/uae";
+                      }
                       if (countryName === "Japan") {
                         window.location.href = "/countries/japan";
                       }
@@ -454,6 +460,9 @@ function ClickableWorldMap() {
                       }
                       if (countryName === "India") {
                         window.location.href = "/countries/india";
+                      }
+                      if (countryName === "Qatar") {
+                        window.location.href = "/countries/qatar";
                       }
                       if (countryName === "Honduras") {
                         window.location.href = "/countries/honduras";
