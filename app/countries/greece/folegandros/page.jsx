@@ -9,20 +9,16 @@ const IMAGES = [
   "6.jpeg",
   "7.jpeg",
   "8.jpeg",
-  "9.jpeg",
-  "10.jpeg",
-  "11.jpeg",
-  "12.jpeg",
 ];
 
-export default function AndrosPage() {
+export default function FolegandrosPage() {
   return (
     <div className="bg-slate-950 min-h-screen text-white p-8">
-      <h1 className="text-5xl font-bold mb-8">Andros</h1>
+      <h1 className="text-5xl font-bold mb-8">Folegandros</h1>
 
       <img
-        src="/photos/europe/greece/andros/1.jpeg"
-        alt="Andros"
+        src="/photos/europe/greece/folegandros/1.jpeg"
+        alt="Folegandros"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
 
@@ -34,7 +30,7 @@ export default function AndrosPage() {
             target="_blank"
           >
             <img
-              src={`/photos/europe/greece/andros/${image}`}
+              src={`/photos/europe/greece/folegandros/${image}`}
               alt={image}
               className="rounded-xl w-full aspect-square object-cover hover:opacity-80 transition"
             />
