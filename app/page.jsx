@@ -343,7 +343,7 @@ const SPECIAL_LOCATIONS = [
   {
     name: "Vatican City",
     coordinates: [12.45, 41.9],
-    route: "/countries/vatican-city",
+    route: "/countries/vatican",
   },
 
   {
