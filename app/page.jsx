@@ -202,13 +202,18 @@ const ACTIVE_GALLERIES = {
   Botswana: "/countries/botswana",
   "Cape Verde": "/countries/cape-verde",
   China: "/countries/china",
+  "Costa Rica": "/countries/costarica",
   Cuba: "/countries/cuba",
   Cyprus: "/countries/cyprus",
   Ecuador: "/countries/ecuador",
+  "El Salvador": "/countries/elsalvador",
   Galapagos: "/countries/galapagos",
   Georgia: "/countries/georgia",
   Gibraltar: "/countries/gibraltar",
   Greenland: "/countries/greenland",
+  Guatemala: "/countries/guatemala",
+  Honduras: "/countries/honduras",
+
   India: "/countries/india",
   Indonesia: "/countries/indonesia",
   Japan: "/countries/japan",
@@ -220,7 +225,9 @@ const ACTIVE_GALLERIES = {
   Malaysia: "/countries/malaysia",
   Maldives: "/countries/maldives",
   Mauritius: "/countries/mauritius",
+  Mexico: "/countries/mexico",
   Namibia: "/countries/namibia",
+  Nicaragua: "/countries/nicaragua",
   Peru: "/countries/peru",
   Russia: "/countries/russia",
   Rwanda: "/countries/rwanda",
@@ -232,6 +239,7 @@ const ACTIVE_GALLERIES = {
   Syria: "/countries/syria",
   Tenerife: "/countries/tenerife",
   Thailand: "/countries/thailand",
+  "United States": "/countries/unitedstates",
   Zimbabwe: "/countries/zimbabwe",
 };
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
@@ -399,6 +407,9 @@ function ClickableWorldMap() {
                       if (countryName === "Namibia") {
                         window.location.href = "/countries/namibia";
                       }
+                      if (countryName === "United States of America") {
+                        window.location.href = "/countries/unitedstates";
+                      }
 
                       if (countryName === "Zimbabwe") {
                         window.location.href = "/countries/zimbabwe";
@@ -413,14 +424,29 @@ function ClickableWorldMap() {
                       if (countryName === "Japan") {
                         window.location.href = "/countries/japan";
                       }
+                      if (countryName === "Guatemala") {
+                        window.location.href = "/countries/guatemala";
+                      }
+                      if (countryName === "Nicaragua") {
+                        window.location.href = "/countries/nicaragua";
+                      }
+                      if (countryName === "El Salvador") {
+                        window.location.href = "/countries/elsalvador";
+                      }
                       if (countryName === "Indonesia") {
                         window.location.href = "/countries/indonesia";
                       }
                       if (countryName === "Malaysia") {
                         window.location.href = "/countries/malaysia";
                       }
+                      if (countryName === "Costa Rica") {
+                        window.location.href = "/countries/costarica";
+                      }
                       if (countryName === "Peru") {
                         window.location.href = "/countries/peru";
+                      }
+                      if (countryName === "Mexico") {
+                        window.location.href = "/countries/mexico";
                       }
                       if (countryName === "Ecuador") {
                         window.location.href = "/countries/ecuador";
@@ -428,6 +454,10 @@ function ClickableWorldMap() {
                       if (countryName === "India") {
                         window.location.href = "/countries/india";
                       }
+                      if (countryName === "Honduras") {
+                        window.location.href = "/countries/honduras";
+                      }
+
                       if (countryName === "Libya") {
                         window.location.href = "/countries/libya";
                       }
