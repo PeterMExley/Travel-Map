@@ -201,6 +201,7 @@ const ACTIVE_GALLERIES = {
   Azores: "/countries/azores",
   Botswana: "/countries/botswana",
   "Cape Verde": "/countries/cape-verde",
+  Cambodia: "/countries/cambodia",
   China: "/countries/china",
   "Costa Rica": "/countries/costarica",
   Cuba: "/countries/cuba",
@@ -217,6 +218,7 @@ const ACTIVE_GALLERIES = {
   India: "/countries/india",
   Indonesia: "/countries/indonesia",
   Japan: "/countries/japan",
+  Jordan: "/countries/jordan",
   Komodo: "/countries/komodo",
   Laos: "/countries/laos",
   Libya: "/countries/libya",
@@ -243,9 +245,11 @@ const ACTIVE_GALLERIES = {
   Syria: "/countries/syria",
   Tenerife: "/countries/tenerife",
   Thailand: "/countries/thailand",
+  Turkey: "/countries/turkey",
   "United Arab Emirates": "/countries/uae",
   "United States of America": "/countries/unitedstates",
   "Vatican City": "/countries/vatican",
+  Vietnam: "/countries/vietnam",
   Zimbabwe: "/countries/zimbabwe",
 };
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
@@ -432,6 +436,9 @@ function ClickableWorldMap() {
                           window.location.href = "/countries/libya";
                         }
                       }
+                      if (countryName === "Turkey") {
+                        window.location.href = "/countries/turkey";
+                      }
                       if (countryName === "United Arab Emirates") {
                         window.location.href = "/countries/uae";
                       }
@@ -450,6 +457,10 @@ function ClickableWorldMap() {
                       if (countryName === "Indonesia") {
                         window.location.href = "/countries/indonesia";
                       }
+                      if (countryName === "Vietnam") {
+                        window.location.href = "/countries/vietnam";
+                      }
+
                       if (countryName === "Malaysia") {
                         window.location.href = "/countries/malaysia";
                       }
@@ -464,6 +475,9 @@ function ClickableWorldMap() {
                       }
                       if (countryName === "Ecuador") {
                         window.location.href = "/countries/ecuador";
+                      }
+                      if (countryName === "Cambodia") {
+                        window.location.href = "/countries/cambodia";
                       }
                       if (countryName === "India") {
                         window.location.href = "/countries/india";
@@ -496,6 +510,9 @@ function ClickableWorldMap() {
 
                       if (countryName === "Greenland") {
                         window.location.href = "/countries/greenland";
+                      }
+                      if (countryName === "Jordan") {
+                        window.location.href = "/countries/jordan";
                       }
                       if (countryName === "Rwanda") {
                         window.location.href = "/countries/rwanda";
