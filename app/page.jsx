@@ -224,6 +224,7 @@ const ACTIVE_GALLERIES = {
   Madeira: "/countries/madeira",
   Malaysia: "/countries/malaysia",
   Maldives: "/countries/maldives",
+  Malta: "/countries/malta",
   Mauritius: "/countries/mauritius",
   Mexico: "/countries/mexico",
   Namibia: "/countries/namibia",
@@ -244,6 +245,7 @@ const ACTIVE_GALLERIES = {
   Thailand: "/countries/thailand",
   "United Arab Emirates": "/countries/uae",
   "United States of America": "/countries/unitedstates",
+  "Vatican City": "/countries/vatican",
   Zimbabwe: "/countries/zimbabwe",
 };
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
