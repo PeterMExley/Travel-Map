@@ -388,12 +388,6 @@ const SPECIAL_LOCATIONS = [
     coordinates: [-15.4, 13.45],
     route: "/countries/gambia",
   },
-
-  {
-    name: "Andorra",
-    coordinates: [1.6, 42.55],
-    route: "/countries/andorra",
-  },
 ];
 function ClickableWorldMap() {
   const visitedCountries = Object.values(DATA.continents).flat();
