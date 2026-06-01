@@ -34,7 +34,7 @@ const BRITISH_MARKERS = [
     type: "city",
     x: 57.3,
     y: 57.1,
-    href: "#",
+    href: "/countries/british-isles/liverpool",
   },
   {
     name: "Dublin",
