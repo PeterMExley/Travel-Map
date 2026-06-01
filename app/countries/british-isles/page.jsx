@@ -1,12 +1,48 @@
 "use client";
 
 const BRITISH_MARKERS = [
-  { name: "Edinburgh", type: "city", x: 56, y: 23, href: "#" },
-  { name: "Liverpool", type: "city", x: 45, y: 48, href: "#" },
-  { name: "London", type: "city", x: 63, y: 72, href: "#" },
-  { name: "Lake District", type: "region", x: 46, y: 41, href: "#" },
-  { name: "Cornwall", type: "region", x: 24, y: 82, href: "#" },
-  { name: "Isle of Man", type: "region", x: 38, y: 45, href: "#" },
+  {
+    name: "Edinburgh",
+    type: "city",
+    x: 58.1,
+    y: 32.7,
+    href: "#",
+  },
+  {
+    name: "Liverpool",
+    type: "city",
+    x: 57.3,
+    y: 57.1,
+    href: "#",
+  },
+  {
+    name: "London",
+    type: "city",
+    x: 74.2,
+    y: 76.7,
+    href: "#",
+  },
+  {
+    name: "Lake District",
+    type: "region",
+    x: 57.1,
+    y: 45.4,
+    href: "#",
+  },
+  {
+    name: "Isle of Man",
+    type: "region",
+    x: 50.0,
+    y: 49.2,
+    href: "#",
+  },
+  {
+    name: "Cornwall",
+    type: "region",
+    x: 44.6,
+    y: 90.3,
+    href: "#",
+  },
 ];
 
 export default function BritishIslesPage() {
