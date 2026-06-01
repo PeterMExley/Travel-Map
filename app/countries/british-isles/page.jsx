@@ -97,7 +97,7 @@ const BRITISH_MARKERS = [
     type: "region",
     x: 57.1,
     y: 45.4,
-    href: "#",
+    href: "/countries/british-isles/lake-district",
   },
   {
     name: "Yorkshire Dales",
