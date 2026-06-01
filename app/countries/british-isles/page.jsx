@@ -167,15 +167,16 @@ export default function BritishIslesPage() {
         />
 
         {BRITISH_MARKERS.map((marker) => (
-          <a
-            key={marker.name}
-            href={marker.href}
-            className="absolute cursor-pointer group"
-            style={{
-              left: `${marker.x}%`,
-              top: `${marker.y}%`,
-              transform: "translate(-50%, -50%)",
-            }}
+     <a
+  key={marker.name}
+  href={marker.href === "#" ? undefined : marker.href}
+  className="absolute cursor-pointer group pointer-events-auto"
+  style={{
+    left: `${marker.x}%`,
+    top: `${marker.y}%`,
+    transform: "translate(-50%, -50%)",
+  }}
+>
           >
             <>
               <span
