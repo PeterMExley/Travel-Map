@@ -325,12 +325,6 @@ const SPECIAL_LOCATIONS = [
   },
 
   {
-    name: "Isle of Man",
-    coordinates: [-4.5, 54.2],
-    route: "/countries/isleofman",
-  },
-
-  {
     name: "Mauritius",
     coordinates: [57.5, -20.2],
     route: "/countries/mauritius",
@@ -377,11 +371,6 @@ const SPECIAL_LOCATIONS = [
     route: "/countries/lanzarote",
   },
 
-  {
-    name: "Majorca",
-    coordinates: [3.0, 39.7],
-    route: "/countries/majorca",
-  },
   {
     name: "Qatar",
     coordinates: [51.2, 25.3],
