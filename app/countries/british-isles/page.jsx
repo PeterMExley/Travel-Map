@@ -177,11 +177,19 @@ export default function BritishIslesPage() {
               transform: "translate(-50%, -50%)",
             }}
           >
-            <div
-              className={`w-5 h-5 rounded-full border-2 border-white shadow-lg ${
-                marker.type === "city" ? "bg-blue-500" : "bg-green-500"
-              }`}
-            />
+            <>
+              <span
+                className={`absolute -inset-2 rounded-full opacity-30 animate-ping ${
+                  marker.type === "city" ? "bg-blue-500" : "bg-green-500"
+                }`}
+              />
+
+              <span
+                className={`relative block w-5 h-5 rounded-full border-2 border-white shadow-lg ${
+                  marker.type === "city" ? "bg-blue-500" : "bg-green-500"
+                }`}
+              />
+            </>
 
             <div className="absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-xs font-medium text-white">
               {marker.name}
