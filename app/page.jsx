@@ -259,6 +259,7 @@ const ACTIVE_GALLERIES = {
   "Vatican City": "/countries/vatican",
   Vietnam: "/countries/vietnam",
   Zimbabwe: "/countries/zimbabwe",
+  Zanzibar: "/countries/zanzibar",
 };
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 const SPECIAL_LOCATIONS = [
