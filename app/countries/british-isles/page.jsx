@@ -114,11 +114,11 @@ const BRITISH_MARKERS = [
     href: "/countries/british-isles/burghley-horse-trials",
   },
   {
-    name: "Gateway to Southwell",
+    name: "Gate to Southwell",
     type: "region",
-    x: 66.8,
-    y: 60.0,
-    href: "/countries/british-isles/gateway-to-southwell",
+    x: 68.8,
+    y: 57.7,
+    href: "/countries/british-isles/gate-to-southwell",
   },
   {
     name: "Peak District",
