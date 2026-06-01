@@ -450,8 +450,14 @@ function ClickableWorldMap() {
                       if (countryName === "Kenya") {
                         window.location.href = "/countries/kenya";
                       }
+                      if (countryName === "United Kingdom") {
+                        window.location.href = "/countries/british-isles";
+                      }
                       if (countryName === "Turkey") {
                         window.location.href = "/countries/turkey";
+                      }
+                      if (countryName === "Ireland") {
+                        window.location.href = "/countries/british-isles";
                       }
                       if (countryName === "United Arab Emirates") {
                         window.location.href = "/countries/uae";
