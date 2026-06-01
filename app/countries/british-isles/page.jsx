@@ -26,7 +26,7 @@ const BRITISH_MARKERS = [
     name: "York",
     type: "city",
     x: 66.4,
-    y: 50.2,
+    y: 52,
     href: "#",
   },
   {
@@ -47,7 +47,7 @@ const BRITISH_MARKERS = [
     name: "Nottingham",
     type: "city",
     x: 66.7,
-    y: 61.2,
+    y: 63
     href: "#",
   },
   {
@@ -110,7 +110,7 @@ const BRITISH_MARKERS = [
     name: "Peak District",
     type: "region",
     x: 64.1,
-    y: 58.6,
+    y: 61,
     href: "#",
   },
   {
@@ -187,7 +187,7 @@ export default function BritishIslesPage() {
               }`}
             />
 
-            <div className="absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-sm font-medium text-white">
+            <div className="absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-xs font-medium text-white">
               {marker.name}
             </div>
           </div>
