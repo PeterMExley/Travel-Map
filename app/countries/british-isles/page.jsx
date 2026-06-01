@@ -47,7 +47,7 @@ const BRITISH_MARKERS = [
     name: "Nottingham",
     type: "city",
     x: 66.7,
-    y: 63
+    y: 63,
     href: "#",
   },
   {
