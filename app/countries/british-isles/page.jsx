@@ -107,6 +107,20 @@ const BRITISH_MARKERS = [
     href: "#",
   },
   {
+    name: "Burghley Horse Trials",
+    type: "region",
+    x: 70.0,
+    y: 60.0,
+    href: "/countries/british-isles/burghley-horse-trials",
+  },
+  {
+    name: "Gateway to Southwell",
+    type: "region",
+    x: 66.8,
+    y: 60.0,
+    href: "/countries/british-isles/gateway-to-southwell",
+  },
+  {
     name: "Peak District",
     type: "region",
     x: 64.1,
