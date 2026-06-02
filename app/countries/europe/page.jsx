@@ -208,7 +208,7 @@ const EUROPE_MARKERS = [
     name: "Marseille",
     type: "city",
     x: 38.2,
-    y: 78.2,
+    y: 80.2,
     href: "#",
   },
   {
@@ -222,7 +222,7 @@ const EUROPE_MARKERS = [
     name: "Verdon",
     type: "region",
     x: 39.1,
-    y: 76.7,
+    y: 77.7,
     href: "#",
   },
   {
@@ -250,7 +250,7 @@ const EUROPE_MARKERS = [
     name: "Western Front",
     type: "region",
     x: 35.9,
-    y: 59.5,
+    y: 58.5,
     href: "#",
   },
   {
@@ -328,7 +328,7 @@ export default function EuropePage() {
                 className={`absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 ${
                   marker.type === "explorer"
                     ? "text-sm font-bold text-red-300"
-                    : "text-[11px] font-medium text-white"
+                    : "text-[10px] font-medium text-white"
                 } ${
                   marker.name === "Dordogne"
                     ? "right-6 top-[-3px]"
