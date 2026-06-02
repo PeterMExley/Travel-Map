@@ -247,6 +247,13 @@ const EUROPE_MARKERS = [
     href: "#",
   },
   {
+    name: "Western Front",
+    type: "region",
+    x: 35.9,
+    y: 59.5,
+    href: "#",
+  },
+  {
     name: "Amalfi Coast",
     type: "region",
     x: 54.9,
@@ -321,7 +328,11 @@ export default function EuropePage() {
                 className={`absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 ${
                   marker.type === "explorer"
                     ? "text-sm font-bold text-red-300"
-                    : "text-xs font-medium text-white"
+                    : "text-[11px] font-medium text-white"
+                } ${
+                  marker.name === "Dordogne"
+                    ? "right-6 top-[-3px]"
+                    : "left-6 top-[-3px]"
                 }`}
               >
                 {marker.name}
