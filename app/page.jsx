@@ -410,7 +410,7 @@ function ClickableWorldMap() {
                     key={geo.rsmKey}
                     geography={geo}
                     onClick={() => {
-                      console.log(countryName);
+                      console.log("Clicked country:", countryName);
                       if (countryName === "Namibia") {
                         window.location.href = "/countries/namibia";
                       }
