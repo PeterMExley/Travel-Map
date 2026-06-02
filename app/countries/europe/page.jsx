@@ -12,7 +12,7 @@ const EUROPE_MARKERS = [
     name: "Greek Islands",
     type: "explorer",
     x: 69.1,
-    y: 8.6,
+    y: 89.8,
     href: "/countries/greece",
   },
   {
