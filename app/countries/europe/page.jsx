@@ -162,6 +162,111 @@ const EUROPE_MARKERS = [
     y: 92.9,
     href: "/countries/cyprus",
   },
+  {
+    name: "St Petersburg",
+    type: "city",
+    x: 69.8,
+    y: 30.4,
+    href: "#",
+  },
+  {
+    name: "Moscow",
+    type: "city",
+    x: 83.9,
+    y: 40.7,
+    href: "#",
+  },
+  {
+    name: "Luxembourg",
+    type: "region",
+    x: 40.6,
+    y: 61.6,
+    href: "#",
+  },
+  {
+    name: "Paris",
+    type: "city",
+    x: 33.7,
+    y: 63.2,
+    href: "#",
+  },
+  {
+    name: "Lyon",
+    type: "city",
+    x: 36.0,
+    y: 71.4,
+    href: "#",
+  },
+  {
+    name: "Avignon",
+    type: "city",
+    x: 35.4,
+    y: 75.1,
+    href: "#",
+  },
+  {
+    name: "Marseille",
+    type: "city",
+    x: 38.2,
+    y: 78.2,
+    href: "#",
+  },
+  {
+    name: "Dordogne",
+    type: "region",
+    x: 31.4,
+    y: 73.5,
+    href: "#",
+  },
+  {
+    name: "Verdon",
+    type: "region",
+    x: 39.1,
+    y: 76.7,
+    href: "#",
+  },
+  {
+    name: "Switzerland",
+    type: "region",
+    x: 41.4,
+    y: 69.1,
+    href: "#",
+  },
+  {
+    name: "Bologna",
+    type: "city",
+    x: 47.9,
+    y: 75.5,
+    href: "#",
+  },
+  {
+    name: "Tuscany",
+    type: "region",
+    x: 50.0,
+    y: 80.7,
+    href: "#",
+  },
+  {
+    name: "Amalfi Coast",
+    type: "region",
+    x: 54.9,
+    y: 86.9,
+    href: "#",
+  },
+  {
+    name: "Alentejo",
+    type: "region",
+    x: 12.8,
+    y: 88.7,
+    href: "#",
+  },
+  {
+    name: "Algarve",
+    type: "region",
+    x: 12.2,
+    y: 91.2,
+    href: "#",
+  },
 ];
 
 export default function EuropePage() {
@@ -205,7 +310,7 @@ export default function EuropePage() {
               <span
                 className={`relative block rounded-full border-2 border-white shadow-lg ${
                   marker.type === "explorer"
-                    ? "w-7 h-7 bg-red-500"
+                    ? "w-5 h-5 bg-red-500"
                     : marker.type === "city"
                       ? "w-5 h-5 bg-blue-500"
                       : "w-5 h-5 bg-green-500"
