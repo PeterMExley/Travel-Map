@@ -110,14 +110,14 @@ const BRITISH_MARKERS = [
     name: "Burghley Horse Trials",
     type: "region",
     x: 70.0,
-    y: 64.0,
+    y: 66.0,
     href: "/countries/british-isles/burghley-horse-trials",
   },
   {
     name: "Gate to Southwell",
     type: "region",
     x: 68.8,
-    y: 57.7,
+    y: 57,
     href: "/countries/british-isles/gate-to-southwell",
   },
   {
