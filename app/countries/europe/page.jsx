@@ -26,7 +26,7 @@ export default function EuropePage() {
           className="absolute inset-0 h-full w-full object-contain opacity-90"
         />
 
-        {_MARKERS.map((marker) => (
+        {EUROPE_MARKERS.map((marker) => (
           <a
             key={marker.name}
             href={marker.href === "#" ? undefined : marker.href}
