@@ -325,14 +325,14 @@ export default function EuropePage() {
               />
 
               <span
-                className={`absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 ${
+                className={`absolute top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 ${
                   marker.type === "explorer"
                     ? "text-sm font-bold text-red-300"
-                    : "text-[10px] font-medium text-white"
+                    : "text-[11px] font-medium text-white"
                 } ${
                   marker.name === "Dordogne"
-                    ? "right-6 top-[-3px]"
-                    : "left-6 top-[-3px]"
+                    ? "left-[-8px] -translate-x-full"
+                    : "left-6"
                 }`}
               >
                 {marker.name}
