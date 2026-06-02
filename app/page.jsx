@@ -568,7 +568,7 @@ function ClickableWorldMap() {
                         window.location.href = "/countries/greece";
                       }
                       if (countryName === "Sweden") {
-                        window.location.href = "/countries/sweden";
+                        window.location.href = "/countries/europe";
                       }
                       if (countryName === "Syria") {
                         window.location.href = "/countries/syria";
