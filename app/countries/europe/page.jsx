@@ -330,10 +330,9 @@ export default function EuropePage() {
                     ? "text-sm font-bold text-red-300"
                     : "text-[11px] font-medium text-white"
                 } ${
-                  marker.name === "Dordogne" ||
-marker.name === "Western Front"
-  ? "left-[-8px] -translate-x-full"
-  : "left-6
+                  marker.name === "Dordogne" || marker.name === "Western Front"
+                    ? "left-[-8px] -translate-x-full"
+                    : "left-6"
                 }`}
               >
                 {marker.name}
