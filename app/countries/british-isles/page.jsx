@@ -110,7 +110,7 @@ const BRITISH_MARKERS = [
     name: "Burghley Horse Trials",
     type: "region",
     x: 70.0,
-    y: 60.0,
+    y: 64.0,
     href: "/countries/british-isles/burghley-horse-trials",
   },
   {
@@ -124,7 +124,7 @@ const BRITISH_MARKERS = [
     name: "Peak District",
     type: "region",
     x: 64.1,
-    y: 61,
+    y: 60,
     href: "#",
   },
   {
