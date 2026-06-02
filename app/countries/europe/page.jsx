@@ -8,6 +8,13 @@ const EUROPE_MARKERS = [
     y: 10,
     href: "#",
   },
+  {
+    name: "Sweden",
+    type: "region",
+    x: 50,
+    y: 20,
+    href: "/countries/europe/sweden",
+  },
 ];
 
 export default function EuropePage() {
