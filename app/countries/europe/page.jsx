@@ -120,6 +120,48 @@ const EUROPE_MARKERS = [
     y: 79.4,
     href: "#",
   },
+  {
+    name: "Ice Hotel",
+    type: "region",
+    x: 54.9,
+    y: 10.9,
+    href: "/countries/europe/sweden",
+  },
+  {
+    name: "Stockholm",
+    type: "city",
+    x: 54.2,
+    y: 36.1,
+    href: "/countries/europe/sweden",
+  },
+  {
+    name: "Iceland",
+    type: "region",
+    x: 18.2,
+    y: 13.3,
+    href: "#",
+  },
+  {
+    name: "Gibraltar",
+    type: "region",
+    x: 15.9,
+    y: 94.7,
+    href: "/countries/gibraltar",
+  },
+  {
+    name: "Malta",
+    type: "region",
+    x: 54.3,
+    y: 98.8,
+    href: "/countries/malta",
+  },
+  {
+    name: "Cyprus",
+    type: "region",
+    x: 88.4,
+    y: 92.9,
+    href: "/countries/cyprus",
+  },
 ];
 
 export default function EuropePage() {
