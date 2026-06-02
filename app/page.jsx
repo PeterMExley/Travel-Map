@@ -426,16 +426,16 @@ function ClickableWorldMap() {
                       }
                       if (countryName === "China") {
                         window.location.href = "/countries/china";
-                        if (countryName === "Libya") {
-                          window.location.href = "/countries/libya";
-                        }
-                        if (countryName === "France") {
-                          window.location.href = "/countries/europe";
-                        }
+                      }
+                      if (countryName === "Libya") {
+                        window.location.href = "/countries/libya";
+                      }
+                      if (countryName === "France") {
+                        window.location.href = "/countries/europe";
+                      }
 
-                        if (countryName === "Germany") {
-                          window.location.href = "/countries/europe";
-                        }
+                      if (countryName === "Germany") {
+                        window.location.href = "/countries/europe";
                       }
                       if (countryName === "Kenya") {
                         window.location.href = "/countries/kenya";
