@@ -2,18 +2,18 @@
 
 const EUROPE_MARKERS = [
   {
-    name: "Iceland",
-    type: "region",
-    x: 12,
-    y: 10,
-    href: "#",
+    name: "British Isles",
+    type: "explorer",
+    x: 25.4,
+    y: 48.5,
+    href: "/countries/british-isles",
   },
   {
-    name: "Sweden",
-    type: "region",
-    x: 50,
-    y: 20,
-    href: "/countries/europe/sweden",
+    name: "Greek Islands",
+    type: "explorer",
+    x: 69.1,
+    y: 8.6,
+    href: "/countries/greece",
   },
   {
     name: "Oslo",
@@ -194,20 +194,34 @@ export default function EuropePage() {
             <>
               <span
                 className={`absolute -inset-2 rounded-full opacity-30 animate-ping ${
-                  marker.type === "city" ? "bg-blue-500" : "bg-green-500"
+                  marker.type === "city"
+                    ? "bg-blue-500"
+                    : marker.type === "explorer"
+                      ? "bg-red-500"
+                      : "bg-green-500"
                 }`}
               />
 
               <span
-                className={`relative block w-5 h-5 rounded-full border-2 border-white shadow-lg ${
-                  marker.type === "city" ? "bg-blue-500" : "bg-green-500"
+                className={`relative block rounded-full border-2 border-white shadow-lg ${
+                  marker.type === "explorer"
+                    ? "w-7 h-7 bg-red-500"
+                    : marker.type === "city"
+                      ? "w-5 h-5 bg-blue-500"
+                      : "w-5 h-5 bg-green-500"
                 }`}
               />
-            </>
 
-            <div className="absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-xs font-medium text-white">
-              {marker.name}
-            </div>
+              <span
+                className={`absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 ${
+                  marker.type === "explorer"
+                    ? "text-sm font-bold text-red-300"
+                    : "text-xs font-medium text-white"
+                }`}
+              >
+                {marker.name}
+              </span>
+            </>
           </a>
         ))}
       </div>
