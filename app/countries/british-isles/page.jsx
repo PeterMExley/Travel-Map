@@ -173,7 +173,7 @@ export default function BritishIslesPage() {
         Click a marker to open a destination gallery.
       </p>
 
-      <div className="relative mx-auto max-w-5xl h-[850px] rounded-[2rem] border border-slate-800 bg-slate-900 overflow-hidden shadow-2xl">
+      <div className="relative mx-auto max-w-5xl aspect-[1029/853] rounded-[2rem] border border-slate-800 bg-slate-900 overflow-hidden shadow-2xl">
         <img
           src="/maps/british-isles.jpeg"
           alt="British Isles map"

@@ -71,10 +71,10 @@ export default function GreecePage() {
       <h1 className="text-5xl font-bold mb-4">Greece</h1>
 
       <p className="text-slate-400 mb-8">
-        Click an island marker to open its future gallery.
+        Click an island marker to open gallery.
       </p>
 
-      <div className="relative mx-auto max-w-6xl h-[1000px] rounded-[2rem] border border-slate-800 bg-slate-900 overflow-hidden shadow-2xl">
+      <div className="relative mx-auto w-full max-w-5xl aspect-[1000/1148] rounded-[2rem] border border-slate-800 bg-slate-900 overflow-hidden shadow-2xl">
         <img
           src="/maps/greek-islands.jpeg"
           alt="Greek islands map"
