@@ -167,14 +167,14 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 69.8,
     y: 30.4,
-    href: "#",
+    href: "countries/russia",
   },
   {
     name: "Moscow",
     type: "city",
     x: 83.9,
     y: 40.7,
-    href: "#",
+    href: "/countries/russia",
   },
   {
     name: "Luxembourg",
