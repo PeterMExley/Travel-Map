@@ -565,7 +565,7 @@ const EUROPE_MARKERS = [
   {
     name: "Romania",
     type: "region",
-    x: 68.0,
+    x: 69.2,
     y: 67.8,
     href: "#",
   },
@@ -573,7 +573,7 @@ const EUROPE_MARKERS = [
     name: "Bulgaria",
     type: "region",
     x: 69.2,
-    y: 75.0,
+    y: 77.0,
     href: "#",
   },
   {
