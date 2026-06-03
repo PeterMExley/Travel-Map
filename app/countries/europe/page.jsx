@@ -69,7 +69,7 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 59.9,
     y: 67.1,
-    href: "#",
+    href: "/countries/europe/budapest",
   },
   {
     name: "Venice",
@@ -104,7 +104,7 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 58.1,
     y: 79.1,
-    href: "#",
+    href: "/countries/europe/dubrovnik",
   },
   {
     name: "Lisbon",
@@ -118,7 +118,7 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 77.4,
     y: 79.4,
-    href: "#",
+    href: "/countries/europe/istanbul",
   },
   {
     name: "Ice Hotel",
