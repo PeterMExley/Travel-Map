@@ -135,28 +135,6 @@ const DATA = {
 
     "South America": ["Ecuador", "Peru"],
   },
-
-  featuredTrips: [
-    {
-      title: "Pantanal Wildlife",
-      country: "Brazil",
-      icon: <Waves className="h-5 w-5" />,
-      description:
-        "Future gallery placeholder for jaguars, wetlands, birds and river safaris.(planned 2027)",
-    },
-    {
-      title: "Greek Islands",
-      country: "Greece",
-      icon: <MapPin className="h-5 w-5" />,
-      description: "Future galleries for Greek island hopping",
-    },
-    {
-      title: "Svalbard Expedition",
-      country: "Svalbard and Jan Mayen",
-      icon: <Mountain className="h-5 w-5" />,
-      description: "Future Arctic galleries and polar landscapes.",
-    },
-  ],
 };
 const NAMIBIA_IMAGES = [
   "baboon.jpeg",
@@ -720,7 +698,7 @@ export default function TravelArchiveWebsite() {
 
       <section className="mx-auto max-w-7xl px-6 py-12">
         <h2 className="mb-8 text-center text-3xl font-bold text-white">
-          Explore Beyond the World Map
+          Map Selection
         </h2>
 
         <div className="grid gap-6 md:grid-cols-2">
@@ -792,34 +770,6 @@ export default function TravelArchiveWebsite() {
         </div>
 
         <ClickableWorldMap />
-      </section>
-
-      <section className="mx-auto max-w-7xl px-6 pb-14">
-        <div className="mb-8">
-          <h2 className="text-3xl font-bold text-white">Galleries</h2>
-        </div>
-
-        <div className="grid gap-6 lg:grid-cols-3">
-          {DATA.featuredTrips.map((trip) => (
-            <motion.div
-              key={trip.title}
-              whileHover={{ y: -4 }}
-              className="rounded-3xl border border-slate-800 bg-slate-900 p-8"
-            >
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-500/20 text-sky-300">
-                {trip.icon}
-              </div>
-
-              <h3 className="text-2xl font-bold text-white">{trip.title}</h3>
-
-              <p className="mt-2 text-sky-300">{trip.country}</p>
-
-              <p className="mt-4 leading-relaxed text-slate-400">
-                {trip.description}
-              </p>
-            </motion.div>
-          ))}
-        </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-6 pb-20">
