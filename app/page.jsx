@@ -698,7 +698,7 @@ export default function TravelArchiveWebsite() {
 
       <section className="mx-auto max-w-7xl px-6 py-12">
         <h2 className="mb-8 text-center text-3xl font-bold text-white">
-          Map Selection
+          Choose a map to explore
         </h2>
 
         <div className="grid gap-6 md:grid-cols-2">
@@ -758,6 +758,16 @@ export default function TravelArchiveWebsite() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-7xl px-6 pb-20">
+        {Object.entries(DATA.continents).map(([continent, countries]) => (
+          <ContinentSection
+            key={continent}
+            name={continent}
+            countries={countries}
+          />
+        ))}
+      </section>
+
       <section id="world-map" className="mx-auto max-w-7xl px-6 pb-14">
         <div className="mb-6">
           <h2 className="text-3xl font-bold text-white">
@@ -770,16 +780,6 @@ export default function TravelArchiveWebsite() {
         </div>
 
         <ClickableWorldMap />
-      </section>
-
-      <section className="mx-auto max-w-7xl px-6 pb-20">
-        {Object.entries(DATA.continents).map(([continent, countries]) => (
-          <ContinentSection
-            key={continent}
-            name={continent}
-            countries={countries}
-          />
-        ))}
       </section>
 
       <footer className="border-t border-slate-800 bg-slate-900/60">
