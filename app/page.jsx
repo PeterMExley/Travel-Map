@@ -408,9 +408,55 @@ function ClickableWorldMap() {
                       if (countryName === "Libya") {
                         window.location.href = "/countries/libya";
                       }
+                      if (countryName === "United Kingdom") {
+                        window.location.href = "/countries/british-isles";
+                      }
+                     
+                      if (countryName === "Ireland") {
+                        window.location.href = "/countries/british-isles";
+                      }
                       if (countryName === "France") {
                         window.location.href = "/countries/europe";
                       }
+                      if (
+  [
+    "Albania",
+    "Austria",
+    "Belgium",
+    "Bosnia and Herzegovina",
+    "Bulgaria",
+    "Croatia",
+    "Czechia",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Hungary",
+    "Iceland",
+    "Italy",
+    "Kosovo",
+    "Latvia",
+    "Lithuania",
+    "Luxembourg",
+    "Montenegro",
+    "Netherlands",
+    "North Macedonia",
+    "Norway",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Serbia",
+    "Slovakia",
+    "Slovenia",
+    "Spain",
+    "Switzerland",
+    "Sweden",
+    "Turkey",
+  ].includes(countryName)
+) {
+  window.location.href = "/countries/europe";
+}
 
                       if (countryName === "Germany") {
                         window.location.href = "/countries/europe";
@@ -418,15 +464,7 @@ function ClickableWorldMap() {
                       if (countryName === "Kenya") {
                         window.location.href = "/countries/kenya";
                       }
-                      if (countryName === "United Kingdom") {
-                        window.location.href = "/countries/british-isles";
-                      }
-                      if (countryName === "Turkey") {
-                        window.location.href = "/countries/turkey";
-                      }
-                      if (countryName === "Ireland") {
-                        window.location.href = "/countries/british-isles";
-                      }
+                      
                       if (countryName === "United Arab Emirates") {
                         window.location.href = "/countries/uae";
                       }
