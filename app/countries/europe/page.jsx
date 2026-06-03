@@ -289,7 +289,7 @@ export default function EuropePage() {
         <img
           src="/maps/europe.jpeg"
           alt="Europe map"
-          className="absolute inset-0 h-full w-full object-contain opacity-90"
+          className="absolute inset-0 h-full w-full object-cover opacity-90"
         />
 
         {EUROPE_MARKERS.map((marker) => (
