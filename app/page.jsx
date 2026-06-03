@@ -574,20 +574,22 @@ function ClickableWorldMap() {
                         window.location.href = "/countries/syria";
                       }
                     }}
-                    default: {
-  fill: visited ? "#2d4f9e" : "#111827",
-  stroke: "#5f84d6",
-  strokeWidth: 0.4,
-  outline: "none",
-},
-hover: {
-  fill: "#3f6dd6",
-  outline: "none",
-},
-pressed: {
-  fill: "#4a7cff",
-  outline: "none",
-},
+                    style={{
+                      default: {
+                        fill: visited ? "#2d4f9e" : "#111827",
+                        stroke: "#5f84d6",
+                        strokeWidth: 0.4,
+                        outline: "none",
+                      },
+                      hover: {
+                        fill: "#3f6dd6",
+                        outline: "none",
+                      },
+                      pressed: {
+                        fill: "#4a7cff",
+                        outline: "none",
+                      },
+                    }}
                   >
                     <title>{countryName}</title>
                   </Geography>
