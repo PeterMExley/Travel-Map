@@ -579,8 +579,8 @@ const EUROPE_MARKERS = [
   {
     name: "Albania",
     type: "region",
-    x: 61.0,
-    y: 80.8,
+    x: 62.0,
+    y: 82.8,
     href: "/countries/europe/albania",
   },
 ];
