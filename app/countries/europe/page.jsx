@@ -547,42 +547,42 @@ const EUROPE_MARKERS = [
     y: 91.2,
     href: "#",
   },
-];
-{
-  name: "Netherlands",
-  type: "region",
-  x: 39.4,
-  y: 55.5,
-  href: "#",
-},
-{
-  name: "Belgium",
-  type: "region",
-  x: 38.2,
-  y: 58.7,
-  href: "#",
-},
-{
-  name: "Romania",
-  type: "region",
-  x: 68.0,
-  y: 67.8,
-  href: "#",
-},
-{
-  name: "Bulgaria",
-  type: "region",
-  x: 69.2,
-  y: 75.0,
-  href: "#",
-},
-{
-  name: "Albania",
-  type: "region",
-  x: 61.0,
-  y: 80.8,
-  href: "/countries/europe/albania",
-},
+
+  {
+    name: "Netherlands",
+    type: "region",
+    x: 39.4,
+    y: 55.5,
+    href: "#",
+  },
+  {
+    name: "Belgium",
+    type: "region",
+    x: 38.2,
+    y: 58.7,
+    href: "#",
+  },
+  {
+    name: "Romania",
+    type: "region",
+    x: 68.0,
+    y: 67.8,
+    href: "#",
+  },
+  {
+    name: "Bulgaria",
+    type: "region",
+    x: 69.2,
+    y: 75.0,
+    href: "#",
+  },
+  {
+    name: "Albania",
+    type: "region",
+    x: 61.0,
+    y: 80.8,
+    href: "/countries/europe/albania",
+  },
 ];
 
 export default function EuropePage() {
