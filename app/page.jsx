@@ -723,13 +723,13 @@ export default function TravelArchiveWebsite() {
           Explore Beyond the World Map
         </h2>
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           {[
             {
-              name: "British Isles",
-              map: "/maps/british-isles.jpeg",
-              contact: "/maps/british-isles-contact.jpeg",
-              href: "/countries/british-isles",
+              name: "World",
+              map: "/maps/world.jpeg",
+              contact: "/maps/world-contact.jpeg",
+              href: "/#world-map",
             },
             {
               name: "Europe",
@@ -737,6 +737,13 @@ export default function TravelArchiveWebsite() {
               contact: "/maps/europe-contact.jpeg",
               href: "/countries/europe",
             },
+            {
+              name: "British Isles",
+              map: "/maps/british-isles.jpeg",
+              contact: "/maps/british-isles-contact.jpeg",
+              href: "/countries/british-isles",
+            },
+
             {
               name: "Greek Islands",
               map: "/maps/greek-islands.jpeg",
@@ -773,7 +780,7 @@ export default function TravelArchiveWebsite() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 pb-14">
+      <section id="world-map" className="mx-auto max-w-7xl px-6 pb-14">
         <div className="mb-6">
           <h2 className="text-3xl font-bold text-white">
             Interactive World Map
