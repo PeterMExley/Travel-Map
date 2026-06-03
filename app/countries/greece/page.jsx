@@ -1,12 +1,8 @@
 "use client";
 
 const AEGEAN_MARKERS = [
-  { name: "Tirana", x: 7.69, y: 9.5, route: "/countries/albania" },
-  { name: "Istanbul", x: 89.12, y: 10.0, route: "/countries/turkey" },
-  { name: "Ohrid", x: 16.49, y: 16.0, route: "/countries/northmacedonia" },
-
-  { name: "Gjirokaster", x: 11.23, y: 25.5, route: "/countries/albania" },
-  { name: "Butrint", x: 9.07, y: 31.3, route: "/countries/albania" },
+  { name: "Albania", x: 7.69, y: 9.5, route: "/countries/europe/albania" },
+  { name: "Istanbul", x: 89.12, y: 10.0, route: "/countries/europe/istanbul" },
 
   { name: "Corfu", x: 7.69, y: 34.0, route: "/countries/greece/corfu" },
 

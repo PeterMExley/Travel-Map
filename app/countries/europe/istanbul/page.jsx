@@ -11,14 +11,14 @@ const IMAGES = [
   "8.jpeg",
 ];
 
-export default function LanzarotePage() {
+export default function IstanbulPage() {
   return (
     <div className="bg-slate-950 min-h-screen text-white p-8">
-      <h1 className="text-5xl font-bold mb-8">Lanzarote</h1>
+      <h1 className="text-5xl font-bold mb-8">Istanbul</h1>
 
       <img
-        src="/photos/europe/lanzarote/1.jpeg"
-        alt="Lanzarote"
+        src="/photos/europe/istanbul/3.jpeg"
+        alt="Istanbul"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
 
@@ -26,11 +26,12 @@ export default function LanzarotePage() {
         {IMAGES.map((image) => (
           <a
             key={image}
-            href={`/photos/europe/lanzarote/${image}`}
+            href={`/photos/europe/istanbul/${image}`}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
-              src={`/photos/europe/lanzarote/${image}`}
+              src={`/photos/europe/istanbul/${image}`}
               alt={image}
               className="rounded-xl w-full aspect-square object-cover hover:opacity-80 transition"
             />
