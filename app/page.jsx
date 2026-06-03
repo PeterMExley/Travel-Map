@@ -670,7 +670,7 @@ export default function TravelArchiveWebsite() {
       <section className="relative overflow-hidden border-b border-slate-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(14,165,233,0.25),transparent_45%)]" />
 
-        <div className="relative mx-auto max-w-7xl px-6 py-20 lg:py-28">
+        <div className="relative mx-auto max-w-7xl px-6 py-12 lg:py-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -684,8 +684,8 @@ export default function TravelArchiveWebsite() {
               </span>
             </div>
 
-            <h1 className="mb-6 text-5xl font-bold leading-tight text-white lg:text-7xl">
-              Interactive World Travel Map
+            <h1 className="mb-6 text-4xl font-bold leading-tight text-white lg:text-7xl">
+              Choose a map to explore
             </h1>
 
             <p className="max-w-3xl text-xl leading-relaxed text-slate-300">
@@ -696,11 +696,7 @@ export default function TravelArchiveWebsite() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-12">
-        <h2 className="mb-8 text-center text-3xl font-bold text-white">
-          Choose a map to explore
-        </h2>
-
+      <section className="mx-auto max-w-7xl px-6 pb-12">
         <div className="grid gap-6 md:grid-cols-2">
           {[
             {
