@@ -677,21 +677,13 @@ export default function TravelArchiveWebsite() {
             transition={{ duration: 0.7 }}
             className="max-w-4xl"
           >
-            <div className="mb-6 flex items-center gap-3 text-sky-300">
-              <Globe className="h-8 w-8" />
-              <span className="text-sm uppercase tracking-[0.3em]">
-                Peter Exley Travel Archive
-              </span>
-            </div>
-
-            <h1 className="mb-6 text-4xl font-bold leading-tight text-white lg:text-7xl">
-              Choose a map to explore
+            <h1 className="text-4xl font-bold text-white lg:text-5xl">
+              Peter Exley Travel Archive
             </h1>
 
-            <p className="max-w-3xl text-xl leading-relaxed text-slate-300">
-              A personal archive of countries, territories, islands, wildlife
-              journeys, and photography.
-            </p>
+            <h2 className="mt-3 text-lg text-slate-300">
+              Choose a Map to Explore
+            </h2>
           </motion.div>
         </div>
       </section>
