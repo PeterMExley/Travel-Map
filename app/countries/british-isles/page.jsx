@@ -205,7 +205,11 @@ export default function BritishIslesPage() {
               />
             </>
 
-            <div className="absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-xs font-medium text-white">
+            <div
+              className={`absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-xs font-medium text-white ${
+                marker.type === "city" ? "hidden md:block" : "block"
+              }`}
+            >
               {marker.name}
             </div>
           </a>
