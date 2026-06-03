@@ -9,7 +9,6 @@ const AEGEAN_MARKERS = [
   { name: "Skiathos", x: 40.59, y: 39.7, route: "/countries/greece/skiathos" },
 
   { name: "Athens", x: 44.3, y: 57.2, route: "/countries/greece/athens" },
-  { name: "Rafina", x: 45.77, y: 55.8, route: "/countries/greece/rafina" },
 
   {
     name: "Kefalonia",
