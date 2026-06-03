@@ -718,30 +718,58 @@ export default function TravelArchiveWebsite() {
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-6 px-6 py-12 md:grid-cols-3">
-        <div className="rounded-3xl border border-slate-800 bg-slate-900 p-8">
-          <div className="text-5xl font-bold text-sky-300">
-            {DATA.stats.totalVisited}
-          </div>
-          <div className="mt-2 text-lg text-slate-300">
-            Countries & Territories
-          </div>
-        </div>
+      <section className="mx-auto max-w-7xl px-6 py-12">
+        <h2 className="mb-8 text-center text-3xl font-bold text-white">
+          Explore Beyond the World Map
+        </h2>
 
-        <div className="rounded-3xl border border-slate-800 bg-slate-900 p-8">
-          <div className="text-5xl font-bold text-sky-300">
-            {DATA.stats.sovereignStates}
-          </div>
-          <div className="mt-2 text-lg text-slate-300">Sovereign States</div>
-        </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          {[
+            {
+              name: "British Isles",
+              map: "/maps/british-isles.jpeg",
+              contact: "/maps/british-isles-contact.jpeg",
+              href: "/countries/british-isles",
+            },
+            {
+              name: "Europe",
+              map: "/maps/europe.jpeg",
+              contact: "/maps/europe-contact.jpeg",
+              href: "/countries/europe",
+            },
+            {
+              name: "Greek Islands",
+              map: "/maps/greek-islands.jpeg",
+              contact: "/maps/greek-islands-contact.jpeg",
+              href: "/countries/greece",
+            },
+          ].map((item) => (
+            <a
+              key={item.name}
+              href={item.href}
+              className="group overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-xl transition hover:scale-[1.02]"
+            >
+              <div className="relative aspect-square">
+                <img
+                  src={item.map}
+                  alt={`${item.name} map`}
+                  className="absolute inset-0 h-full w-full object-cover transition-opacity duration-500 group-hover:opacity-0"
+                />
 
-        <div className="rounded-3xl border border-slate-800 bg-slate-900 p-8">
-          <div className="text-5xl font-bold text-sky-300">
-            {DATA.stats.territories}
-          </div>
-          <div className="mt-2 text-lg text-slate-300">
-            Territories & Regions
-          </div>
+                <img
+                  src={item.contact}
+                  alt={`${item.name} photo collage`}
+                  className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                />
+              </div>
+
+              <div className="p-4 text-center">
+                <h3 className="text-xl font-semibold text-white">
+                  {item.name}
+                </h3>
+              </div>
+            </a>
+          ))}
         </div>
       </section>
 
@@ -752,7 +780,7 @@ export default function TravelArchiveWebsite() {
           </h2>
 
           <p className="mt-2 text-slate-400">
-            Click countries to open future galleries.
+            Click countries to open galleries.
           </p>
         </div>
 
@@ -761,9 +789,7 @@ export default function TravelArchiveWebsite() {
 
       <section className="mx-auto max-w-7xl px-6 pb-14">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-white">
-            Featured Future Galleries
-          </h2>
+          <h2 className="text-3xl font-bold text-white">Galleries</h2>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-3">
