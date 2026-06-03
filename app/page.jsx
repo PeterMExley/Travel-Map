@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Globe, Camera, MapPin, Mountain, Waves } from "lucide-react";
+import { Globe, Camera } from "lucide-react";
 import {
   ComposableMap,
   Geographies,
@@ -677,13 +677,16 @@ export default function TravelArchiveWebsite() {
             transition={{ duration: 0.7 }}
             className="max-w-4xl"
           >
-            <h1 className="text-4xl font-bold text-white lg:text-5xl">
-              Peter Exley Travel Archive
-            </h1>
+            <div className="mb-4 flex items-center gap-3 text-sky-300">
+              <Globe className="h-8 w-8" />
+              <span className="text-sm uppercase tracking-[0.3em]">
+                Peter Exley Travel Archive
+              </span>
+            </div>
 
-            <h2 className="mt-3 text-lg text-slate-300">
+            <h1 className="text-2xl font-semibold text-white lg:text-3xl">
               Choose a Map to Explore
-            </h2>
+            </h1>
           </motion.div>
         </div>
       </section>
