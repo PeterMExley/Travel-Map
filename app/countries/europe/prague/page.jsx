@@ -1,6 +1,6 @@
-import Image from "next/image";
+"use client";
 
-const photos = [
+const IMAGES = [
   "1.jpeg",
   "2.jpeg",
   "3.jpeg",
@@ -13,39 +13,30 @@ const photos = [
 
 export default function PraguePage() {
   return (
-    <main className="min-h-screen bg-black text-white">
-      {/* Hero */}
-      <div className="relative h-[60vh] w-full">
-        <Image
-          src="/photos/europe/prague/3.jpeg"
-          alt="Prague"
-          fill
-          priority
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-black/40 flex items-end">
-          <h1 className="text-5xl font-bold p-8">Prague</h1>
-        </div>
-      </div>
+    <div className="bg-slate-950 min-h-screen text-white p-8">
+      <h1 className="text-5xl font-bold mb-8">Prague</h1>
 
-      {/* Gallery */}
-      <div className="max-w-7xl mx-auto p-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {photos.map((photo) => (
-            <div
-              key={photo}
-              className="relative aspect-[4/3] overflow-hidden rounded-lg"
-            >
-              <Image
-                src={`/photos/europe/prague/${photo}`}
-                alt={`Prague ${photo}`}
-                fill
-                className="object-cover hover:scale-105 transition duration-300"
-              />
-            </div>
-          ))}
-        </div>
+      <img
+        src="/photos/europe/prague/3.jpeg"
+        alt="Prague"
+        className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
+      />
+
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {IMAGES.map((image) => (
+          <a
+            key={image}
+            href={`/photos/europe/prague/${image}`}
+            target="_blank"
+          >
+            <img
+              src={`/photos/europe/prague/${image}`}
+              alt={image}
+              className="rounded-xl w-full aspect-square object-cover hover:opacity-80 transition"
+            />
+          </a>
+        ))}
       </div>
-    </main>
+    </div>
   );
 }
