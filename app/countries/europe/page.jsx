@@ -457,6 +457,13 @@ const EUROPE_MARKERS = [
     href: "#",
   },
   {
+    name: "Austria",
+    type: "region",
+    x: 55.6,
+    y: 65.2,
+    href: "/europe/austria",
+  },
+  {
     name: "Luxembourg",
     type: "region",
     x: 40.6,
