@@ -472,10 +472,10 @@ function ClickableWorldMap() {
                       if (countryName === "Japan") {
                         window.location.href = "/countries/japan";
                       }
-                      }
                       if (countryName === "Canada") {
                         window.location.href = "/countries/canada";
                       }
+
                       if (countryName === "Guatemala") {
                         window.location.href = "/countries/guatemala";
                       }
