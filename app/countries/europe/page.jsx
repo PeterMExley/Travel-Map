@@ -328,7 +328,7 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 52.4,
     y: 59.9,
-    href: "#",
+    href: "europe/prague",
   },
   {
     name: "Krakow",
@@ -349,7 +349,7 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 49.5,
     y: 72.0,
-    href: "#",
+    href: "europe/venice",
   },
   {
     name: "Split",
