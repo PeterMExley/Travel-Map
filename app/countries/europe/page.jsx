@@ -22,6 +22,13 @@ const EUROPE_MARKERS = [
     y: 34.5,
     href: "#",
   },
+  {
+    name: "Austria",
+    type: "region",
+    x: 55.6,
+    y: 65.2,
+    href: "/europe/austria",
+  },
 
   {
     name: "Helsinki",
@@ -324,20 +331,7 @@ const EUROPE_MARKERS = [
     y: 45.3,
     href: "#",
   },
-  {
-    name: "Prague",
-    type: "city",
-    x: 52.4,
-    y: 59.9,
-    href: "europe/prague",
-  },
-  {
-    name: "Krakow",
-    type: "city",
-    x: 60.0,
-    y: 59.2,
-    href: "#",
-  },
+
   {
     name: "Budapest",
     type: "city",
