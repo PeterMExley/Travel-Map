@@ -180,6 +180,7 @@ const ACTIVE_GALLERIES = {
   Botswana: "/countries/botswana",
   "Cape Verde": "/countries/cape-verde",
   Cambodia: "/countries/cambodia",
+  Canada: "/countries/canada",
   China: "/countries/china",
   "Costa Rica": "/countries/costarica",
   Cuba: "/countries/cuba",
@@ -470,6 +471,10 @@ function ClickableWorldMap() {
                       }
                       if (countryName === "Japan") {
                         window.location.href = "/countries/japan";
+                      }
+                      }
+                      if (countryName === "Canada") {
+                        window.location.href = "/countries/canada";
                       }
                       if (countryName === "Guatemala") {
                         window.location.href = "/countries/guatemala";
