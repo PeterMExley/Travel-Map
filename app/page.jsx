@@ -254,7 +254,7 @@ const SPECIAL_LOCATIONS = [
   {
     name: "New York",
     coordinates: [-74.0, 40.7],
-    route: "/countries/newyork",
+    route: "/countries/new-york",
   },
 
   {
@@ -411,7 +411,7 @@ function ClickableWorldMap() {
                       if (countryName === "United Kingdom") {
                         window.location.href = "/countries/british-isles";
                       }
-                     
+
                       if (countryName === "Ireland") {
                         window.location.href = "/countries/british-isles";
                       }
@@ -419,44 +419,44 @@ function ClickableWorldMap() {
                         window.location.href = "/countries/europe";
                       }
                       if (
-  [
-    "Albania",
-    "Austria",
-    "Belgium",
-    "Bosnia and Herzegovina",
-    "Bulgaria",
-    "Croatia",
-    "Czechia",
-    "Denmark",
-    "Estonia",
-    "Finland",
-    "France",
-    "Germany",
-    "Hungary",
-    "Iceland",
-    "Italy",
-    "Kosovo",
-    "Latvia",
-    "Lithuania",
-    "Luxembourg",
-    "Montenegro",
-    "Netherlands",
-    "North Macedonia",
-    "Norway",
-    "Poland",
-    "Portugal",
-    "Romania",
-    "Serbia",
-    "Slovakia",
-    "Slovenia",
-    "Spain",
-    "Switzerland",
-    "Sweden",
-    "Turkey",
-  ].includes(countryName)
-) {
-  window.location.href = "/countries/europe";
-}
+                        [
+                          "Albania",
+                          "Austria",
+                          "Belgium",
+                          "Bosnia and Herzegovina",
+                          "Bulgaria",
+                          "Croatia",
+                          "Czechia",
+                          "Denmark",
+                          "Estonia",
+                          "Finland",
+                          "France",
+                          "Germany",
+                          "Hungary",
+                          "Iceland",
+                          "Italy",
+                          "Kosovo",
+                          "Latvia",
+                          "Lithuania",
+                          "Luxembourg",
+                          "Montenegro",
+                          "Netherlands",
+                          "North Macedonia",
+                          "Norway",
+                          "Poland",
+                          "Portugal",
+                          "Romania",
+                          "Serbia",
+                          "Slovakia",
+                          "Slovenia",
+                          "Spain",
+                          "Switzerland",
+                          "Sweden",
+                          "Turkey",
+                        ].includes(countryName)
+                      ) {
+                        window.location.href = "/countries/europe";
+                      }
 
                       if (countryName === "Germany") {
                         window.location.href = "/countries/europe";
@@ -464,7 +464,7 @@ function ClickableWorldMap() {
                       if (countryName === "Kenya") {
                         window.location.href = "/countries/kenya";
                       }
-                      
+
                       if (countryName === "United Arab Emirates") {
                         window.location.href = "/countries/uae";
                       }
