@@ -461,7 +461,7 @@ const EUROPE_MARKERS = [
     type: "region",
     x: 55.6,
     y: 65.2,
-    href: "/europe/austria",
+    href: "countries/europe/austria",
   },
   {
     name: "Luxembourg",
