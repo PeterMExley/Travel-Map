@@ -23,6 +23,13 @@ const EUROPE_MARKERS = [
     href: "#",
   },
   {
+    name: "Austria",
+    type: "region",
+    x: 54.8,
+    y: 58.8,
+    href: "/europe/austria",
+  },
+  {
     name: "Helsinki",
     type: "city",
     x: 61.6,
