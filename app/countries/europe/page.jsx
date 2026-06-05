@@ -25,7 +25,7 @@ const EUROPE_MARKERS = [
   {
     name: "Austria",
     type: "region",
-    x: 55.6,
+    x: 52.6,
     y: 65.2,
     href: "/countries/europe/austria",
   },
