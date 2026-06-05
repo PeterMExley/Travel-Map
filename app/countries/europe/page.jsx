@@ -318,6 +318,55 @@ const EUROPE_MARKERS = [
     y: 82.8,
     href: "/countries/europe/albania",
   },
+  {
+    name: "Berlin",
+    type: "city",
+    x: 50.8,
+    y: 49.8,
+    href: "#",
+  },
+  {
+    name: "Madrid",
+    type: "city",
+    x: 15.7,
+    y: 81.0,
+    href: "#",
+  },
+  {
+    name: "Barcelona",
+    type: "city",
+    x: 24.8,
+    y: 79.0,
+    href: "#",
+  },
+  {
+    name: "Germany",
+    type: "region",
+    x: 46.5,
+    y: 56.5,
+    href: "#",
+  },
+  {
+    name: "Spain",
+    type: "region",
+    x: 18.5,
+    y: 80.0,
+    href: "#",
+  },
+  {
+    name: "Turkey",
+    type: "region",
+    x: 86.0,
+    y: 78.0,
+    href: "#",
+  },
+  {
+    name: "Majorca",
+    type: "region",
+    x: 30.8,
+    y: 87.2,
+    href: "#",
+  },
 ];
 
 export default function EuropePage() {
