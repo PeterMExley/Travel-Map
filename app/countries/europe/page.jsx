@@ -286,8 +286,8 @@ const EUROPE_MARKERS = [
   {
     name: "Netherlands",
     type: "region",
-    x: 39.4,
-    y: 55.5,
+    x: 37.4,
+    y: 53.5,
     href: "#",
   },
   {
@@ -342,7 +342,7 @@ const EUROPE_MARKERS = [
   {
     name: "Germany",
     type: "region",
-    x: 46.5,
+    x: 48.5,
     y: 56.5,
     href: "#",
   },
@@ -356,15 +356,15 @@ const EUROPE_MARKERS = [
   {
     name: "Turkey",
     type: "region",
-    x: 86.0,
-    y: 78.0,
+    x: 84.0,
+    y: 86.0,
     href: "#",
   },
   {
     name: "Majorca",
     type: "region",
-    x: 30.8,
-    y: 87.2,
+    x: 32.8,
+    y: 87.6,
     href: "#",
   },
 ];
