@@ -328,14 +328,14 @@ const EUROPE_MARKERS = [
   {
     name: "Madrid",
     type: "city",
-    x: 20,
+    x: 23,
     y: 85.0,
     href: "#",
   },
   {
     name: "Barcelona",
     type: "city",
-    x: 29.8,
+    x: 30.8,
     y: 83.0,
     href: "#",
   },
