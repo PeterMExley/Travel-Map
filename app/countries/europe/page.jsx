@@ -33,9 +33,9 @@ const EUROPE_MARKERS = [
   {
     name: "Helsinki",
     type: "city",
-    x: 61.6,
-    y: 31.3,
-    href: "#",
+    x: 60.8
+    y: 30.4,
+    href: "/countries/europe/helsinki",
   },
   {
     name: "Tallinn",
