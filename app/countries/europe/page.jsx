@@ -33,7 +33,7 @@ const EUROPE_MARKERS = [
   {
     name: "Helsinki",
     type: "city",
-    x: 60.8
+    x: 60.8,
     y: 30.4,
     href: "/countries/europe/helsinki",
   },
