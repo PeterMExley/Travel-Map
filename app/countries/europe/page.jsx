@@ -40,9 +40,9 @@ const EUROPE_MARKERS = [
   {
     name: "Tallinn",
     type: "city",
-    x: 61.8,
+    x: 63.0,
     y: 33.3,
-    href: "#",
+    href: "/countries/europe/dubrovnik",
   },
   {
     name: "Riga",
