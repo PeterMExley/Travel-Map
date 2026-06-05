@@ -55,8 +55,6 @@ const AEGEAN_MARKERS = [
   { name: "Symi", x: 82.99, y: 72.7, route: "/countries/greece/symi" },
 
   { name: "Rhodes", x: 87.39, y: 74.4, route: "/countries/greece/rhodes" },
-
-  { name: "Fethiye", x: 94.04, y: 72.4, route: "/countries/turkey" },
 ];
 
 export default function GreecePage() {
