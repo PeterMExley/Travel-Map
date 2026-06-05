@@ -27,7 +27,7 @@ const EUROPE_MARKERS = [
     type: "region",
     x: 55.6,
     y: 65.2,
-    href: "countries/europe/austria",
+    href: "/countries/europe/austria",
   },
 
   {
@@ -63,7 +63,7 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 52.4,
     y: 59.9,
-    href: "#",
+    href: "/countries/europe/prague",
   },
   {
     name: "Krakow",
@@ -84,7 +84,7 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 49.5,
     y: 72.0,
-    href: "#",
+    href: "/countries/europe/venice",
   },
   {
     name: "Split",
