@@ -93,13 +93,7 @@ const EUROPE_MARKERS = [
     y: 72.0,
     href: "/countries/europe/venice",
   },
-  {
-    name: "Split",
-    type: "city",
-    x: 56.3,
-    y: 77.4,
-    href: "#",
-  },
+
   {
     name: "Florence",
     type: "city",
@@ -115,11 +109,18 @@ const EUROPE_MARKERS = [
     href: "#",
   },
   {
-    name: "Dubrovnik",
-    type: "city",
-    x: 58.1,
+    name: "Croatia",
+    type: "region",
+    x: 57.2,
     y: 79.1,
-    href: "/countries/europe/dubrovnik",
+    href: "/countries/europe/croatia",
+  },
+  {
+    name: "Slovenia",
+    type: "region",
+    x: 53.8,
+    y: 71.8,
+    href: "/countries/europe/slovenia",
   },
   {
     name: "Lisbon",
