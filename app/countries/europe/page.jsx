@@ -20,7 +20,7 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 46.0,
     y: 34.5,
-    href: "#",
+    href: "/countries/europe/oslo",
   },
   {
     name: "Austria",
@@ -203,7 +203,7 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 33.7,
     y: 63.2,
-    href: "#",
+    href: "/countries/europe/paris",
   },
   {
     name: "Lyon",
@@ -330,14 +330,14 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 48.8,
     y: 52.8,
-    href: "#",
+    href: "/countries/europe/berlin",
   },
   {
     name: "Madrid",
     type: "city",
     x: 23,
     y: 85.0,
-    href: "#",
+    href: "/countries/europe/madrid",
   },
   {
     name: "Barcelona",
@@ -372,7 +372,7 @@ const EUROPE_MARKERS = [
     type: "region",
     x: 32.8,
     y: 87.6,
-    href: "#",
+    href: "/countries/europe/majorca",
   },
 ];
 
