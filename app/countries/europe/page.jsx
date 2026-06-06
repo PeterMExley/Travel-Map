@@ -70,16 +70,15 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 60.0,
     y: 59.2,
-    href: "countries/europe/krakow
-    ",
+    href: "countries/europe/krakow",
   },
   {
-  name: "Poland",
-  type: "region",
-  x: 57.8,
-  y: 53.8,
-  href: "/countries/europe/poland",
-},
+    name: "Poland",
+    type: "region",
+    x: 57.8,
+    y: 53.8,
+    href: "/countries/europe/poland",
+  },
   {
     name: "Budapest",
     type: "city",
