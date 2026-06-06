@@ -42,21 +42,21 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 63.0,
     y: 34.6,
-    href: "/countries/europe/dubrovnik",
+    href: "/countries/europe/tallinn",
   },
   {
     name: "Riga",
     type: "city",
     x: 62.5,
     y: 40.0,
-    href: "#",
+    href: "/countries/europe/riga",
   },
   {
     name: "Vilnius",
     type: "city",
     x: 65.3,
     y: 45.3,
-    href: "#",
+    href: "/countries/europe/vilnius",
   },
   {
     name: "Prague",
@@ -126,7 +126,7 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 11.7,
     y: 85.6,
-    href: "#",
+    href: "/countries/portugal/lisbon",
   },
   {
     name: "Istanbul",
