@@ -235,11 +235,11 @@ const EUROPE_MARKERS = [
     href: "#",
   },
   {
-    name: "Verdon",
+    name: "France",
     type: "region",
-    x: 39.1,
-    y: 77.7,
-    href: "#",
+    x: 34.5,
+    y: 70.5,
+    href: "/countries/europe/france",
   },
   {
     name: "Switzerland",
