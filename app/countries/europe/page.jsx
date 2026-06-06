@@ -70,8 +70,16 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 60.0,
     y: 59.2,
-    href: "#",
+    href: "countries/europe/krakow
+    ",
   },
+  {
+  name: "Poland",
+  type: "region",
+  x: 57.8,
+  y: 53.8,
+  href: "/countries/europe/poland",
+},
   {
     name: "Budapest",
     type: "city",
@@ -147,7 +155,7 @@ const EUROPE_MARKERS = [
     type: "region",
     x: 18.2,
     y: 13.3,
-    href: "#",
+    href: "countries/europe/iceland",
   },
   {
     name: "Gibraltar",
@@ -273,14 +281,14 @@ const EUROPE_MARKERS = [
     type: "region",
     x: 12.8,
     y: 88.7,
-    href: "#",
+    href: "countries/portugal/alentejo",
   },
   {
     name: "Algarve",
     type: "region",
     x: 12.2,
     y: 91.2,
-    href: "#",
+    href: "countries/portugal/algarve",
   },
 
   {
@@ -337,14 +345,14 @@ const EUROPE_MARKERS = [
     type: "city",
     x: 30.8,
     y: 83.0,
-    href: "#",
+    href: "countries/europe/barcelona",
   },
   {
     name: "Germany",
     type: "region",
     x: 46.5,
     y: 56.5,
-    href: "#",
+    href: "countries/europe/germany",
   },
   {
     name: "Spain",
