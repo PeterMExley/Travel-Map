@@ -100,11 +100,12 @@ const BRITISH_MARKERS = [
     href: "#",
   },
   {
-    name: "Sandstone Trail",
+    name: "Cheshire",
     type: "region",
-    x: 58.8,
-    y: 61.0,
+    x: 60.9,
+    y: 57.6,
     href: "#",
+    labelPosition: "left",
   },
   {
     name: "Antrim",
@@ -149,17 +150,17 @@ const BRITISH_MARKERS = [
     href: "#",
   },
   {
-    name: "County Kerry",
+    name: "Kerry",
     type: "region",
     x: 23.1,
     y: 69.6,
     href: "#",
   },
   {
-    name: "Lake District",
+    name: "Lakes",
     type: "region",
-    x: 57.1,
-    y: 45.4,
+    x: 57.8,
+    y: 44.2,
     href: "/countries/british-isles/lake-district",
   },
   {
@@ -179,15 +180,15 @@ const BRITISH_MARKERS = [
   {
     name: "GTSF",
     type: "region",
-    x: 69.6,
-    y: 58.2,
+    x: 73.2,
+    y: 60.1,
     href: "/countries/british-isles/gate-to-southwell",
   },
   {
-    name: "Peak District",
+    name: "Peaks",
     type: "region",
     x: 63.6,
-    y: 60.5,
+    y: 60.7,
     href: "#",
   },
   {
@@ -249,8 +250,8 @@ const BRITISH_MARKERS = [
   {
     name: "South Coast",
     type: "region",
-    x: 71.4,
-    y: 82.1,
+    x: 75.8,
+    y: 84.6,
     href: "#",
   },
 ];
@@ -297,9 +298,9 @@ export default function BritishIslesPage() {
             </>
 
             <div
-              className={`absolute left-6 top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-xs font-medium text-white ${
-                marker.type === "city" ? "hidden md:block" : "block"
-              }`}
+              className={`absolute top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-xs font-medium text-white ${
+                marker.labelPosition === "left" ? "right-6" : "left-6"
+              } ${marker.type === "city" ? "hidden md:block" : "block"}`}
             >
               {marker.name}
             </div>
