@@ -141,13 +141,7 @@ const BRITISH_MARKERS = [
     y: 50.0,
     href: "#",
   },
-  {
-    name: "Yorkshire",
-    type: "region",
-    x: 65.0,
-    y: 49.4,
-    href: "#",
-  },
+
   {
     name: "Donegal",
     type: "region",
@@ -170,21 +164,21 @@ const BRITISH_MARKERS = [
     href: "/countries/british-isles/lake-district",
   },
   {
-    name: "Yorkshire Dales",
+    name: "Yorkshire",
     type: "region",
     x: 61.2,
     y: 48.8,
     href: "#",
   },
   {
-    name: "Burghley Horse Trials",
+    name: "Burghley",
     type: "region",
     x: 70.0,
     y: 66.0,
     href: "/countries/british-isles/burghley-horse-trials",
   },
   {
-    name: "Gate to Southwell",
+    name: "GTSF",
     type: "region",
     x: 68.8,
     y: 57,
