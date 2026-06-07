@@ -126,7 +126,7 @@ const EUROPE_MARKERS = [
     name: "Slovenia",
     type: "region",
     x: 53.8,
-    y: 71.8,
+    y: 69.4,
     href: "/countries/europe/slovenia",
   },
   {
@@ -244,8 +244,8 @@ const EUROPE_MARKERS = [
   {
     name: "France",
     type: "region",
-    x: 34.5,
-    y: 70.5,
+    x: 30.5,
+    y: 68.5,
     href: "/countries/europe/france",
   },
   {
