@@ -9,24 +9,37 @@ const IMAGES = [
   "6.jpeg",
   "7.jpeg",
   "8.jpeg",
+  "9.jpeg",
+  "10.jpeg",
+  "11.jpeg",
+  "12.jpeg",
+  "13.jpeg",
+  "14.jpeg",
+  "15.jpeg",
+  "16.jpeg",
 ];
 
-export default function ParisPage() {
+export default function WesternFrontPage() {
   return (
     <div className="bg-slate-950 min-h-screen text-white p-8">
-      <h1 className="text-5xl font-bold mb-8">Paris</h1>
+      <h1 className="text-5xl font-bold mb-8">Western Front</h1>
 
       <img
-        src="/photos/europe/paris/3.jpeg"
-        alt="Paris"
+        src="/photos/europe/western-front/14.jpeg"
+        alt="Western Front"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {IMAGES.map((image) => (
-          <a key={image} href={`/photos/europe/paris/${image}`} target="_blank">
+          <a
+            key={image}
+            href={`/photos/europe/western-front/${image}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
-              src={`/photos/europe/paris/${image}`}
+              src={`/photos/europe/western-front/${image}`}
               alt={image}
               className="rounded-xl w-full aspect-square object-cover hover:opacity-80 transition"
             />
