@@ -1,7 +1,6 @@
 "use client";
 
 const BRITISH_MARKERS = [
-  
   {
     name: "Edinburgh",
     type: "city",
@@ -254,7 +253,6 @@ const BRITISH_MARKERS = [
     y: 82.1,
     href: "#",
   },
-];
 ];
 
 export default function BritishIslesPage() {
