@@ -102,8 +102,8 @@ const BRITISH_MARKERS = [
   {
     name: "Cheshire",
     type: "region",
-    x: 60.9,
-    y: 57.6,
+    x: 57.6,
+    y: 60.9,
     href: "#",
     labelPosition: "left",
   },
@@ -117,8 +117,8 @@ const BRITISH_MARKERS = [
   {
     name: "Wicklow",
     type: "region",
-    x: 42.4,
-    y: 62.1,
+    x: 37.4,
+    y: 62.6,
     href: "#",
   },
   {
