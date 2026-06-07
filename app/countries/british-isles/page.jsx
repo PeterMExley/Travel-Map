@@ -1,6 +1,7 @@
 "use client";
 
 const BRITISH_MARKERS = [
+  
   {
     name: "Edinburgh",
     type: "city",
@@ -26,14 +27,14 @@ const BRITISH_MARKERS = [
     name: "York",
     type: "city",
     x: 66.4,
-    y: 52,
+    y: 52.5,
     href: "#",
   },
   {
     name: "Liverpool",
     type: "city",
-    x: 57.3,
-    y: 57.1,
+    x: 56.5,
+    y: 57.4,
     href: "/countries/british-isles/liverpool",
   },
   {
@@ -47,7 +48,7 @@ const BRITISH_MARKERS = [
     name: "Nottingham",
     type: "city",
     x: 66.7,
-    y: 63,
+    y: 63.0,
     href: "#",
   },
   {
@@ -75,35 +76,35 @@ const BRITISH_MARKERS = [
     name: "New Forest",
     type: "region",
     x: 62.5,
-    y: 82.4,
+    y: 82.7,
     href: "#",
   },
   {
     name: "Somerset",
     type: "region",
-    x: 54.0,
-    y: 81.5,
+    x: 53.6,
+    y: 80.7,
     href: "#",
   },
   {
     name: "Dorset",
     type: "region",
-    x: 57.6,
-    y: 84.9,
+    x: 57.4,
+    y: 84.8,
     href: "#",
   },
   {
     name: "Kent",
     type: "region",
-    x: 79.3,
-    y: 79.5,
+    x: 79.6,
+    y: 79.7,
     href: "#",
   },
   {
     name: "Sandstone Trail",
     type: "region",
-    x: 59.3,
-    y: 60.2,
+    x: 58.8,
+    y: 61.0,
     href: "#",
   },
   {
@@ -123,25 +124,24 @@ const BRITISH_MARKERS = [
   {
     name: "TT Races",
     type: "region",
-    x: 51.5,
-    y: 50.8,
+    x: 51.3,
+    y: 50.9,
     href: "#",
   },
   {
     name: "Northumbria",
     type: "region",
-    x: 64.7,
-    y: 37.8,
+    x: 64.5,
+    y: 37.4,
     href: "#",
   },
   {
     name: "Whitby",
     type: "city",
-    x: 70.1,
-    y: 50.0,
+    x: 70.9,
+    y: 49.5,
     href: "#",
   },
-
   {
     name: "Donegal",
     type: "region",
@@ -166,36 +166,36 @@ const BRITISH_MARKERS = [
   {
     name: "Yorkshire",
     type: "region",
-    x: 61.2,
-    y: 48.8,
+    x: 62.2,
+    y: 48.6,
     href: "#",
   },
   {
     name: "Burghley",
     type: "region",
-    x: 70.0,
-    y: 66.0,
+    x: 70.7,
+    y: 66.2,
     href: "/countries/british-isles/burghley-horse-trials",
   },
   {
     name: "GTSF",
     type: "region",
-    x: 68.8,
-    y: 57,
+    x: 69.6,
+    y: 58.2,
     href: "/countries/british-isles/gate-to-southwell",
   },
   {
     name: "Peak District",
     type: "region",
-    x: 64.1,
-    y: 60,
+    x: 63.6,
+    y: 60.5,
     href: "#",
   },
   {
     name: "Isle of Man",
     type: "region",
-    x: 48.8,
-    y: 47.8,
+    x: 48.5,
+    y: 47.4,
     href: "#",
   },
   {
@@ -243,17 +243,18 @@ const BRITISH_MARKERS = [
   {
     name: "Conwy",
     type: "city",
-    x: 54.4,
+    x: 53.2,
     y: 55.0,
     href: "#",
   },
   {
     name: "South Coast",
     type: "region",
-    x: 71.5,
-    y: 82.0,
+    x: 71.4,
+    y: 82.1,
     href: "#",
   },
+];
 ];
 
 export default function BritishIslesPage() {
