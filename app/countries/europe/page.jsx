@@ -308,8 +308,8 @@ const EUROPE_MARKERS = [
   {
     name: "Belgium",
     type: "region",
-    x: 37.2,
-    y: 59.7,
+    x: 38.2,
+    y: 56.7,
     href: "#",
   },
   {
