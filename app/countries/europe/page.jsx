@@ -272,8 +272,8 @@ const EUROPE_MARKERS = [
   {
     name: "Western Front",
     type: "region",
-    x: 35.9,
-    y: 58.5,
+    x: 35.3,
+    y: 59.5,
     href: "/countries/europe/western-front",
   },
   {
@@ -308,8 +308,8 @@ const EUROPE_MARKERS = [
   {
     name: "Belgium",
     type: "region",
-    x: 38.2,
-    y: 58.7,
+    x: 37.2,
+    y: 59.7,
     href: "#",
   },
   {
