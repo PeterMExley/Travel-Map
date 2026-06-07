@@ -49,7 +49,9 @@ const BRITISH_MARKERS = [
     x: 66.7,
     y: 63.0,
     href: "#",
+    labelPosition: "left",
   },
+
   {
     name: "Birmingham",
     type: "city",
@@ -81,15 +83,15 @@ const BRITISH_MARKERS = [
   {
     name: "Somerset",
     type: "region",
-    x: 53.6,
-    y: 80.7,
+    x: 55.2,
+    y: 81.5,
     href: "#",
   },
   {
     name: "Dorset",
     type: "region",
-    x: 57.4,
-    y: 84.8,
+    x: 57.6,
+    y: 86.1,
     href: "#",
   },
   {
@@ -124,7 +126,7 @@ const BRITISH_MARKERS = [
   {
     name: "TT Races",
     type: "region",
-    x: 51.3,
+    x: 48.9,
     y: 50.9,
     href: "#",
   },
@@ -180,8 +182,8 @@ const BRITISH_MARKERS = [
   {
     name: "GTSF",
     type: "region",
-    x: 73.2,
-    y: 60.1,
+    x: 60,
+    y: 73,
     href: "/countries/british-isles/gate-to-southwell",
   },
   {
@@ -192,10 +194,10 @@ const BRITISH_MARKERS = [
     href: "#",
   },
   {
-    name: "Isle of Man",
+    name: "IoM",
     type: "region",
-    x: 48.5,
-    y: 47.4,
+    x: 50,
+    y: 48.4,
     href: "#",
   },
   {
@@ -229,8 +231,8 @@ const BRITISH_MARKERS = [
   {
     name: "Gower",
     type: "region",
-    x: 50.8,
-    y: 75.8,
+    x: 48.6,
+    y: 77.4,
     href: "#",
   },
   {
@@ -243,8 +245,8 @@ const BRITISH_MARKERS = [
   {
     name: "Conwy",
     type: "city",
-    x: 53.2,
-    y: 55.0,
+    x: 58.8,
+    y: 51.8,
     href: "#",
   },
   {
