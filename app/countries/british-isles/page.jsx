@@ -76,8 +76,8 @@ const BRITISH_MARKERS = [
   {
     name: "New Forest",
     type: "region",
-    x: 62.5,
-    y: 82.7,
+    x: 64,
+    y: 83.7,
     href: "#",
   },
   {
