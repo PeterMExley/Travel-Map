@@ -32,8 +32,8 @@ const BRITISH_MARKERS = [
   {
     name: "Liverpool",
     type: "city",
-    x: 56.5,
-    y: 57.4,
+    x: 57.5,
+    y: 56.4,
     href: "/countries/british-isles/liverpool",
   },
   {
@@ -77,7 +77,7 @@ const BRITISH_MARKERS = [
     name: "New Forest",
     type: "region",
     x: 64,
-    y: 83.7,
+    y: 85.4,
     href: "#",
   },
   {
@@ -245,8 +245,8 @@ const BRITISH_MARKERS = [
   {
     name: "Conwy",
     type: "city",
-    x: 58.8,
-    y: 51.8,
+    x: 51.8,
+    y: 58.8,
     href: "#",
   },
   {
