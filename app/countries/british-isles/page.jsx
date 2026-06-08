@@ -300,7 +300,7 @@ export default function BritishIslesPage() {
             </>
 
             <div
-              className={`absolute whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-xs font-medium text-white ${
+              className={`absolute hidden md:block whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 text-xs font-medium text-white ${
                 marker.labelPosition === "left"
                   ? "left-[-18px] top-[14px]"
                   : "left-6 top-[-3px]"

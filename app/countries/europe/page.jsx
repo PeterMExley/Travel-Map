@@ -288,14 +288,14 @@ const EUROPE_MARKERS = [
     type: "region",
     x: 12.8,
     y: 88.7,
-    href: "/countries/portugal/alentejo",
+    href: "/countries/alentejo",
   },
   {
     name: "Algarve",
     type: "region",
     x: 12.2,
     y: 91.2,
-    href: "/countries/portugal/algarve",
+    href: "/countries/algarve",
   },
 
   {
@@ -310,7 +310,7 @@ const EUROPE_MARKERS = [
     type: "region",
     x: 38.2,
     y: 56.7,
-    href: "#",
+    href: "countries/europe/belgium",
   },
   {
     name: "Romania",
