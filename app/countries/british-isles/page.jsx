@@ -60,8 +60,8 @@ const BRITISH_MARKERS = [
     href: "#",
   },
   {
-    name: "Cardiff",
-    type: "city",
+    name: "South Wales",
+    type: "region",
     x: 56.1,
     y: 76.4,
     href: "#",
