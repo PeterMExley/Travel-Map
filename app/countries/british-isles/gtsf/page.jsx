@@ -11,7 +11,7 @@ const IMAGES = [
   "8.jpeg",
 ];
 
-export default function gtsfPage() {
+export default function GtsfPage() {
   return (
     <div className="bg-slate-950 min-h-screen text-white p-8">
       <h1 className="text-5xl font-bold mb-8">Gate to Southwell Festival</h1>
