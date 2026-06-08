@@ -111,14 +111,14 @@ const EUROPE_MARKERS = [
   {
     name: "Croatia",
     type: "region",
-    x: 57.2,
+    x: 53.2,
     y: 77.1,
     href: "/countries/europe/croatia",
   },
   {
     name: "Dubrovnik",
     type: "city",
-    x: 57.2,
+    x: 56.2,
     y: 79.1,
     href: "/countries/europe/croatia",
   },
