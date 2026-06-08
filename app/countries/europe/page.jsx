@@ -288,14 +288,14 @@ const EUROPE_MARKERS = [
     type: "region",
     x: 12.8,
     y: 88.7,
-    href: "/countries/alentejo",
+    href: "/countries/europe/alentejo",
   },
   {
     name: "Algarve",
     type: "region",
     x: 12.2,
     y: 91.2,
-    href: "/countries/algarve",
+    href: "/countries/europe/algarve",
   },
 
   {
@@ -433,9 +433,7 @@ export default function EuropePage() {
               />
 
               <span
-                className={`absolute top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 ${
-                  marker.type === "city" ? "hidden md:block" : "block"
-                } ${
+                className={`absolute hidden md:block top-[-3px] whitespace-nowrap rounded-md bg-slate-950/70 px-2 py-1 ${
                   marker.type === "explorer"
                     ? "text-sm font-bold text-red-300"
                     : "text-[11px] font-medium text-white"
