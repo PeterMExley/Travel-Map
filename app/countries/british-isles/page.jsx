@@ -46,7 +46,7 @@ const BRITISH_MARKERS = [
   {
     name: "Nottingham",
     type: "city",
-    x: 66.7,
+    x: 66.4,
     y: 63.0,
     href: "#",
     labelPosition: "left",
@@ -56,7 +56,7 @@ const BRITISH_MARKERS = [
     name: "Birmingham",
     type: "city",
     x: 63.8,
-    y: 69.2,
+    y: 70.4,
     href: "#",
   },
   {
@@ -176,14 +176,14 @@ const BRITISH_MARKERS = [
     name: "Burghley",
     type: "region",
     x: 70.7,
-    y: 66.2,
+    y: 67.2,
     href: "/countries/british-isles/burghley-horse-trials",
   },
   {
     name: "GTSF",
     type: "region",
-    x: 68,
-    y: 62.3,
+    x: 68.6,
+    y: 61.9,
     href: "/countries/british-isles/gate-to-southwell",
   },
   {
