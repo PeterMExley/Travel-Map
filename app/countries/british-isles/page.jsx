@@ -182,7 +182,7 @@ const BRITISH_MARKERS = [
   {
     name: "GTSF",
     type: "region",
-    x: 68.6,
+    x: 69.4,
     y: 61.9,
     href: "/countries/british-isles/gate-to-southwell",
   },
