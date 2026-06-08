@@ -191,7 +191,7 @@ const BRITISH_MARKERS = [
     type: "region",
     x: 69.4,
     y: 61.9,
-    href: "/countries/british-isles/GTSF",
+    href: "/countries/british-isles/gtsf",
   },
   {
     name: "Peaks",
