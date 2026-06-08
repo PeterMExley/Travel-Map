@@ -25,7 +25,7 @@ export default function WesternFrontPage() {
       <h1 className="text-5xl font-bold mb-8">Western Front</h1>
 
       <img
-        src="/photos/europe/western-front/14.jpeg"
+        src="/photos/europe/western-front/1.jpeg"
         alt="Western Front"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />

@@ -132,8 +132,8 @@ const EUROPE_MARKERS = [
   {
     name: "Lisbon",
     type: "city",
-    x: 11.7,
-    y: 85.6,
+    x: 10.7,
+    y: 85.0,
     href: "/countries/portugal/lisbon",
   },
   {
@@ -287,7 +287,7 @@ const EUROPE_MARKERS = [
     name: "Alentejo",
     type: "region",
     x: 12.8,
-    y: 88.7,
+    y: 87.7,
     href: "/countries/europe/alentejo",
   },
   {
