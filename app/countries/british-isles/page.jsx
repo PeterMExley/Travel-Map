@@ -152,6 +152,13 @@ const BRITISH_MARKERS = [
     href: "#",
   },
   {
+    name: "N.Ireland",
+    type: "region",
+    x: 38.0,
+    y: 42.5,
+    href: "#",
+  },
+  {
     name: "Kerry",
     type: "region",
     x: 23.1,
