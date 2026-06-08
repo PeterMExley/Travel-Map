@@ -46,8 +46,8 @@ const BRITISH_MARKERS = [
   {
     name: "Nottingham",
     type: "city",
-    x: 66.4,
-    y: 63.0,
+    x: 65.4,
+    y: 63.3,
     href: "#",
     labelPosition: "left",
   },
@@ -189,7 +189,7 @@ const BRITISH_MARKERS = [
   {
     name: "Peaks",
     type: "region",
-    x: 63.6,
+    x: 62.4,
     y: 60.7,
     href: "#",
   },
