@@ -77,7 +77,7 @@ const BRITISH_MARKERS = [
     name: "New Forest",
     type: "region",
     x: 64,
-    y: 85.4,
+    y: 84.2,
     href: "#",
   },
   {
@@ -90,8 +90,8 @@ const BRITISH_MARKERS = [
   {
     name: "Dorset",
     type: "region",
-    x: 57.6,
-    y: 86.1,
+    x: 57.0,
+    y: 86.4,
     href: "#",
   },
   {
@@ -105,7 +105,7 @@ const BRITISH_MARKERS = [
     name: "Cheshire",
     type: "region",
     x: 57.6,
-    y: 60.9,
+    y: 61.9,
     href: "#",
     labelPosition: "left",
   },
@@ -182,8 +182,8 @@ const BRITISH_MARKERS = [
   {
     name: "GTSF",
     type: "region",
-    x: 63,
-    y: 67,
+    x: 68,
+    y: 62.3,
     href: "/countries/british-isles/gate-to-southwell",
   },
   {
