@@ -15,14 +15,14 @@ const IMAGES = [
   "12.jpeg",
 ];
 
-export default function KalymnosPage() {
+export default function PatmosPage() {
   return (
     <div className="bg-slate-950 min-h-screen text-white p-8">
-      <h1 className="text-5xl font-bold mb-8">Kalymnos</h1>
+      <h1 className="text-5xl font-bold mb-8">Patmos</h1>
 
       <img
-        src="/photos/europe/greece/kalymnos/1.jpeg"
-        alt="Kalymnos"
+        src="/photos/europe/greece/patmos/5.jpeg"
+        alt="Patmos"
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
 
@@ -30,11 +30,12 @@ export default function KalymnosPage() {
         {IMAGES.map((image) => (
           <a
             key={image}
-            href={`/photos/europe/greece/kalymnos/${image}`}
+            href={`/photos/europe/greece/patmos/${image}`}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
-              src={`/photos/europe/greece/kalymnos/${image}`}
+              src={`/photos/europe/greece/patmos/${image}`}
               alt={image}
               className="rounded-xl w-full aspect-square object-cover hover:opacity-80 transition"
             />
