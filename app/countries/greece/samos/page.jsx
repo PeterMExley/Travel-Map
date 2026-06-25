@@ -22,7 +22,7 @@ export default function SamosPage() {
         className="w-full max-w-5xl h-[500px] object-cover rounded-2xl mb-12"
       />
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {IMAGES.map((image) => (
           <a
             key={image}
